@@ -1,8 +1,8 @@
 <?php
 /*
  * Plugin name: Aller GA
- * Version: 0.1
- * Plugin URI: 
+ * Version: 0.2
+ * Plugin URI: http://github.com/allerinternet/wp-plugins-oss/
  * Description: Adds javascript code for Google Analytics on a WP-site.
  * Author: Jonas Björk, jonas.bjork@aller.se
  *
