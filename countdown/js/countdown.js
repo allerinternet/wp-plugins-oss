@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
     function AllCount() {
     	// time vars 
         today = new Date();
-        dDay = new Date(2010, 5, 19, 10, 0, 0); // month = 0-11
+        dDay = new Date(2010, 2, 29, 13, 41, 0); // month = 0-11
         oneDay = 1000*60*60*24;
         oneHour = 1000*60*60;
         oneMin = 1000*60;
@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
 	    // ceil this to not confuse
             days = Math.ceil(diffTime/oneDay);
             diffTime = diffTime%oneDay;
-            out =  days +" DAGAR KVAR";
+            out =  days +" DAGAR";
         }
 	// new counter with 14 days left;
         else {
@@ -45,16 +45,16 @@ jQuery(document).ready(function($) {
 
 	    // different output if no days etc. left.
             if ( days > 0) {
-                out = days + ' DAGAR ' + hours + ' TIMMAR<br>' + mins + ' MINUTER ' + secs + ' SEKUNDER KVAR';
+                out = days + ' DAGAR ' + hours + ' TIMMAR<br>' + mins + ' MINUTER ' + secs + ' SEKUNDER';
             }
             else if( days <= 0 && hours > 0 ){
-                out = hours + ' TIMMAR<br>' + mins + ' MINUTER ' + secs + ' SEKUNDER KVAR';
+                out = hours + ' TIMMAR<br>' + mins + ' MINUTER ' + secs + ' SEKUNDER';
             }
             else if ( days <= 0 && hours <= 0 && mins > 0){
-                out =  mins + ' MINUTER ' + secs + ' SEKUNDER KVAR';
+                out =  mins + ' MINUTER ' + secs + ' SEKUNDER';
             }
             else if ( days <= 0 && hours <= 0 && mins <= 0 && secs > 0){
-                out = secs + ' SEKUNDER KVAR';
+                out = secs + ' SEKUNDER';
             }
             else {
 	    	// switch to disable the counter and stop recursion.
@@ -74,7 +74,9 @@ jQuery(document).ready(function($) {
 		    // add div to hold countdown and message. observe the class counter used for styling 
 	            $('#header').append('<div id="countdown_to_wedding"><div id="counter_holder"><div id="counter">' + 
                          out +
-                         '</div><div id="counter_message">TILL VICTORIAS & DANIELS BR&Ouml;LLOP<br>L&Auml;S ALLT P&Aring; SVENSKDAM.SE</div></div>');
+                         '</div>' + 
+                         '<div id="counter_message">kvar till Victorias & Daniels br&ouml;llop<br>L&auml;s allt p&aring; v&aring;r specialsajt</div>' +
+                         '</div>');
                 }
 		// div exists. only change the counter part.
                 else {
@@ -90,7 +92,7 @@ jQuery(document).ready(function($) {
 	            $('#header').append('<div id="countdown_to_wedding"><div id="counter_holder"><div id="last_counter">' + 
                         out +
                         '</div>' + 
-                        '<div id="counter_message">TILL VICTORIAS & DANIELS BR&Ouml;LLOP<br>L&Auml;S ALLT P&Aring; SVENSKDAM.SE</div>' +
+                        '<div id="counter_message">kvar till Victorias & Daniels br&ouml;llop<br>L&auml;s allt p&aring; v&aring;r specialsajt</div>' +
                         '</div>');
                 }
 		// div exists. only change the counter part.
@@ -98,12 +100,8 @@ jQuery(document).ready(function($) {
                     $('#last_counter').html(out);
                 }
             }
-
             // while counting set "recursion" and call this function again after 1 sec delay. 
-	    // fix. there is no need for recursive update when only presenting days
-            if (lastCounter){
-                setTimeout(arguments.callee, 1000);
-	    }
+            setTimeout(arguments.callee, 1000);
 	}
 	// time for wedding. no more counting.
 	else {

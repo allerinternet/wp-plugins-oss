@@ -2,37 +2,36 @@
 #countdown_to_wedding #counter_holder {
    font-family: "arial black", arial;
    position: absolute;
-   left: 550px;
+   left: 560px;
    bottom: 30px;
    text-align: center;
+   color: #AC0319;
 }
 
 #countdown_to_wedding #counter {
-   font-size: 28px;
+   font-size: 30px;
    z-index: 10;
-   letter-spacing: -2px;
 }
 /* Need abit smaller text when adding hours, minutes and seconds*/
 #countdown_to_wedding #last_counter {
-   font-size: 16px;
+   font-size: 15px;
    z-index: 10;
-   letter-spacing: -2px;
+   margin-bottom: -10px;
 }
 
 #countdown_to_wedding #counter_message {
    font-size: 11px;
    z-index: 10;
-   margin-top: 10px;
+   margin-top: 15px;
    line-height: 12px;
-   letter-spacing: -1px;
 }
 
 #wedding_time {
-    font-family: "arial black", arial;
-    position: absolute;
-    left: 550px;
-    bottom: 65px;
-    text-align: center;
-    font-size: 26px;
-    letter-spacing: -2px
+  font-family: "arial black", arial;
+  position: absolute;
+  left: 560px;
+  bottom: 65px;
+  text-align: center;
+  font-size: 25px;
+  color: #AC0319;
 }
