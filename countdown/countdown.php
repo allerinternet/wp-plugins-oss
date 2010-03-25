@@ -22,11 +22,13 @@
  */
 
 
-
+// all work is done by js and css files
+// include js properly.
 function countdown_init() {
     wp_enqueue_script( 'countdown', WP_PLUGIN_URL.'/countdown/js/countdown.js', array('jquery'));
 }
 
+// ínclude css properly
 function countdown_add_stylesheet() {
     $styleUrl = WP_PLUGIN_URL . '/countdown/css/style.css';
     $styleFile = WP_PLUGIN_DIR . '/countdown/css/style.css';
@@ -36,6 +38,7 @@ function countdown_add_stylesheet() {
     }
 }
 
+// connect functions to actions.
 add_action('wp_print_styles', 'countdown_add_stylesheet');
 add_action('init', 'countdown_init');
 

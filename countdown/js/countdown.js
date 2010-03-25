@@ -98,8 +98,12 @@ jQuery(document).ready(function($) {
                     $('#last_counter').html(out);
                 }
             }
+
             // while counting set "recursion" and call this function again after 1 sec delay. 
-            setTimeout(arguments.callee, 1000);
+	    // fix. there is no need for recursive update when only presenting days
+            if (lastCounter){
+                setTimeout(arguments.callee, 1000);
+	    }
 	}
 	// time for wedding. no more counting.
 	else {
