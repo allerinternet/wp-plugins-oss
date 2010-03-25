@@ -22,9 +22,6 @@ function asa_inne_ute_widget($args) {
     }
  
     // not sure if we need theese extracted args but it is said to be good for compability
-    echo $before_widget;
-    echo $before_title;
-    echo $after_title;
 // widget layout with img scr url set by options.
 ?>
 
@@ -36,7 +33,6 @@ function asa_inne_ute_widget($args) {
 </div>
 
 <?php
-    echo $after_widget;
 }
 
 // Controlpanel function
