@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Countdown (for Victoria and daniels wedding)
+ * Plugin Name: AI-Countdown (for Victoria and daniels wedding)
  * Description: Add a jQuery countdown function.
  * Author: Joel Bernerman
  * Version: 0.1

@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Asas inne och utelista
+Plugin Name: AI-Asas inne och utelista
 Description: Show an selected image and redirects to Asas inne och utelista.
 Author: Joel Bernerman
 Version: 0.1
