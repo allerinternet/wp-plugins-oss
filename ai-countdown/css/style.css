@@ -1,0 +1,38 @@
+/* css for countdown-to-wedding plugin */
+#countdown_to_wedding #counter_holder {
+   position: absolute;
+   left: 560px;
+   bottom: 20px;
+   text-align: center;
+   color: #AC0319;
+}
+
+#countdown_to_wedding #counter {
+   font: 30px/30px "arial black", arial; 
+   font-size: 30px;
+   z-index: 10;
+}
+/* Need abit smaller text when adding hours, minutes and seconds*/
+#countdown_to_wedding #last_counter {
+   font: 15px/15px "arial black", arial; 
+   z-index: 10;
+   margin-bottom: -10px;
+}
+
+#countdown_to_wedding #counter_message {
+   font: 12px/12px "arial black", arial; 
+   z-index: 10;
+   margin-top: 6px;
+   margin-bottom: 10px;
+   line-height: 12px;
+}
+
+#wedding_time {
+  font: 25px/25px "arial black", arial; 
+  position: absolute;
+  left: 560px;
+  bottom: 55px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #AC0319;
+}
