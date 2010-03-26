@@ -22,16 +22,21 @@
  */
 
 
+
 // all work is done by js and css files
 // include js properly.
 function countdown_init() {
-    wp_enqueue_script( 'countdown', WP_PLUGIN_URL.'/countdown/js/countdown.js', array('jquery'));
+    // no hardcoded plugindir allowed
+    $folder = basename(dirname(__FILE__));
+    wp_enqueue_script( 'countdown', WP_PLUGIN_URL . '/' . $folder  .'/js/countdown.js', array('jquery'));
 }
 
 // ínclude css properly
 function countdown_add_stylesheet() {
-    $styleUrl = WP_PLUGIN_URL . '/countdown/css/style.css';
-    $styleFile = WP_PLUGIN_DIR . '/countdown/css/style.css';
+    // no hardcoded plugindir allowed
+    $folder = basename(dirname(__FILE__));
+    $styleUrl = WP_PLUGIN_URL .'/'. $folder . '/css/style.css';
+    $styleFile = WP_PLUGIN_DIR . '/'. $folder .'/css/style.css';
     if ( file_exists($styleFile) ) {
         wp_register_style('countdown', $styleUrl);
         wp_enqueue_style( 'countdown');
