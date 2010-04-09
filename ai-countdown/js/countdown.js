@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
         // aint gonna do anything unnessesary... only days in the counter til its 14 days left.
         if(days >= 14) {
 	    // ceil this to not confuse
-            days = Math.ceil(diffTime/oneDay);
+            days = Math.floor(diffTime/oneDay);
             diffTime = diffTime%oneDay;
             out =  days +" DAGAR";
         }
