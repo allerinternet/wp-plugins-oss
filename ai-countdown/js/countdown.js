@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
         oneSec = 1000;
         
 	// get the url for their special site.
-        url = location.protocol + "//" + location.host + "/kategori/victorias-daniels-brollop/";
+        url = location.protocol + "//svenskdam.se/kategori/victorias-daniels-brollop/";
 
         // bool switches
 	lastCounter = false;
