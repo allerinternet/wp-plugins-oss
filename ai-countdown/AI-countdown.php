@@ -1,9 +1,9 @@
 <?php
 /*
- * Plugin Name: AI-Countdown (for Victoria and daniels wedding)
- * Description: Add a jQuery countdown function.
+ * Plugin Name: AI-Countdown (for Victoria and daniels wedding). 
+ * Description: Add a jQuery countdown function. And an imagemap for header picture making half of it href to the wedding category.
  * Author: Joel Bernerman
- * Version: 0.1
+ * Version: 0.2
  *
  *
  * Copyright 2010 Aller Internet
