@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
     function AllCount() {
     	// time vars 
         today = new Date();
-        dDay = new Date(2010, 5, 19, 15, 0, 0); // month = 0-11
+        dDay = new Date(2010, 5, 19, 15, 30, 0); // month = 0-11
         oneDay = 1000*60*60*24;
         oneHour = 1000*60*60;
         oneMin = 1000*60;
