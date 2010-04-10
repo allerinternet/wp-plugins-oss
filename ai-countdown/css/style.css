@@ -12,11 +12,19 @@
    font-size: 30px;
    z-index: 10;
 }
+
+#countdown_to_wedding #counter a:hover {
+  text-decoration: none;
+}
+
 /* Need abit smaller text when adding hours, minutes and seconds*/
 #countdown_to_wedding #last_counter {
    font: 15px/15px "arial black", arial; 
    z-index: 10;
-   margin-bottom: -10px;
+}
+
+#countdown_to_wedding #last_counter a:hover {
+  text-decoration: none;
 }
 
 #countdown_to_wedding #counter_message {
@@ -25,6 +33,10 @@
    margin-top: 6px;
    margin-bottom: 10px;
    line-height: 12px;
+}
+
+#countdown_to_wedding #counter_message a:hover {
+  text-decoration: none;
 }
 
 #wedding_time {
@@ -36,3 +48,8 @@
   text-align: center;
   color: #AC0319;
 }
+
+#wedding_time a:hover {
+  text-decoration: none;
+}
+

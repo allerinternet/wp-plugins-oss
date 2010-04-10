@@ -12,6 +12,9 @@ jQuery(document).ready(function($) {
         oneHour = 1000*60*60;
         oneMin = 1000*60;
         oneSec = 1000;
+        
+	// get the url for their special site.
+        url = location.protocol + "//" + location.host + "/kategori/victorias-daniels-brollop/";
 
         // bool switches
 	lastCounter = false;
@@ -73,14 +76,14 @@ jQuery(document).ready(function($) {
 		    
 		    // add div to hold countdown and message. observe the class counter used for styling 
 	            $('#header').append('<div id="countdown_to_wedding"><div id="counter_holder"><div id="counter">' + 
-                         out +
+                         '<a href="' + url + '" >' + out + '</a>' +
                          '</div>' + 
-                         '<div id="counter_message">kvar till Victorias & Daniels br&ouml;llop<br>L&auml;s allt p&aring; v&aring;r specialsajt</div>' +
+                         '<div id="counter_message"><a href="' + url + '" >kvar till Victorias & Daniels br&ouml;llop<br>L&auml;s allt p&aring; v&aring;r specialsajt</a></div>' +
                          '</div>');
                 }
 		// div exists. only change the counter part.
                 else {
-                    $('#counter').html(out);
+                    $('#counter').html('<a href="' + url + '" >' + out + '</a>');
                 }
             }
 	    // with less than 14 days we display more time units
@@ -90,14 +93,14 @@ jQuery(document).ready(function($) {
                     
 		    // add div to hold countdown and message. observe the class last_counter used for styling 
 	            $('#header').append('<div id="countdown_to_wedding"><div id="counter_holder"><div id="last_counter">' + 
-                        out +
+                        '<a href="' + url + '" >' + out + '</a>' +
                         '</div>' + 
-                        '<div id="counter_message">kvar till Victorias & Daniels br&ouml;llop<br>L&auml;s allt p&aring; v&aring;r specialsajt</div>' +
+                        '<div id="counter_message"><a href="' + url + '" >kvar till Victorias & Daniels br&ouml;llop<br>L&auml;s allt p&aring; v&aring;r specialsajt</a></div>' +
                         '</div>');
                 }
 		// div exists. only change the counter part.
                 else {
-                    $('#last_counter').html(out);
+                    $('#last_counter').html('<a href="' + url + '" >' + out + '</a>');
                 }
             }
             // while counting set "recursion" and call this function again after 1 sec delay. 
@@ -110,7 +113,7 @@ jQuery(document).ready(function($) {
 	        $('#countdown_to_wedding').remove();
 	    }
 	    // add wedding time message.
-            $('#header').append('<div id="wedding_time">BR&Ouml;LLOPSDAGS!</div>');
+            $('#header').append('<div id="wedding_time"><a href="' + url + '" >BR&Ouml;LLOPSDAGS!</a></div>');
         }
     }
 });
