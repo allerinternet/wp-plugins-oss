@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
     // insert attribute for image and a map
     // Quick fix the admin error.
     if ($('#header img').size() > 0) {
-        $('#header img').offsetParent().before('<map name="wedding_map"><area shape="rect" coords="350,0,790,140" href="http://svenskdam.se/kategori/victorias-daniels-brollop/" alt="Viktorias och daniels br&ouml;llop" /></map>');
+        $('#header img').offsetParent().before('<map name="wedding_map"><area shape="rect" coords="0,0,349,140" href="http://svenskdam.se/" alt="svenskdam.se" /><area shape="rect" coords="350,0,790,140" href="http://svenskdam.se/kategori/victorias-daniels-brollop/" alt="Viktorias och daniels br&ouml;llop" /></map>');
         $('#header img').attr( 'useMap', '#wedding_map' );
     }
     
