@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
     // Quick fix the admin error.
     if ($('#header img').size() > 0) {
         $('#header img').offsetParent().before('<map name="wedding_map"><area shape="rect" coords="350,0,790,140" href="http://svenskdam.se/kategori/victorias-daniels-brollop/" alt="Viktorias och daniels br&ouml;llop" /></map>');
-        $('#header img').attr( 'usemap', '#wedding_map' );
+        $('#header img').attr( 'useMap', '#wedding_map' );
     }
     
     //onecall at pageload. then it will loop;
