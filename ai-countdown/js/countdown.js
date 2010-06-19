@@ -120,7 +120,7 @@ jQuery(document).ready(function($) {
 	        $('#countdown_to_wedding').remove();
 	    }
 	    // add wedding time message.
-            $('#header').append('<div id="wedding_time"><a href="' + url + '" >L&auml;s allt om Victorias &amp; Daniels br&ouml;llop p&aring; v&aring;r specialsajt</a></div>');
+            $('#header').append('<div id="wedding_time"><a href="' + url + '" >L&auml;s allt om Victorias &amp; Daniels<br />br&ouml;llop p&aring; v&aring;r specialsajt</a></div>');
         }
     }
 });
