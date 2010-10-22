@@ -1,0 +1,5036 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-04 15:50-0500\n"
+"PO-Revision-Date: 2010-10-22 12:44+0100\n"
+"Last-Translator: Jonas Björk <jonas.bjork@aller.se>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: common.php:103
+msgid "Insert form field"
+msgstr "Lägg till formulärfält"
+
+#: common.php:107
+#: js.php:1487
+msgid "All Submitted Fields"
+msgstr "Alla inskickade fält"
+
+#: common.php:149
+msgid "Required form fields"
+msgstr "Påtvingade formulärfält"
+
+#: common.php:158
+msgid "Optional form fields"
+msgstr "Valfria formulärfält"
+
+#: common.php:167
+#: form_detail.php:1097
+msgid "Client IP Address"
+msgstr "Klientens IP-adress"
+
+#: common.php:168
+#: common.php:169
+#: form_detail.php:437
+#: form_detail.php:956
+#: form_detail.php:1098
+#: form_detail.php:1099
+#: js.php:638
+#: js.php:1487
+msgid "Date"
+msgstr "Datum"
+
+#: common.php:170
+#: form_detail.php:1100
+msgid "Embed Post/Page Id"
+msgstr "Inbäddat post/sid id"
+
+#: common.php:171
+#: form_detail.php:1101
+msgid "Embed Post/Page Title"
+msgstr "Inbäddad post/sid titel"
+
+#: common.php:172
+#: form_detail.php:1102
+msgid "Embed URL"
+msgstr "Inbäddad URL"
+
+#: common.php:173
+#: entry_detail.php:151
+msgid "Entry Id"
+msgstr "Svarets id"
+
+#: common.php:174
+msgid "Entry URL"
+msgstr "Svarets URL"
+
+#: common.php:175
+msgid "Form Id"
+msgstr "Formulärid"
+
+#: common.php:176
+#: js.php:1487
+#: tooltips.php:28
+msgid "Form Title"
+msgstr "Formulärtitel"
+
+#: common.php:177
+#: form_detail.php:1103
+msgid "HTTP User Agent"
+msgstr "HTTP Användaragent"
+
+#: common.php:180
+msgid "Post Id"
+msgstr "Post id"
+
+#: common.php:181
+msgid "Post Edit URL"
+msgstr "Postredigerings URL"
+
+#: common.php:184
+#: form_detail.php:1105
+msgid "User Display Name"
+msgstr "Visningsnamn för användaren"
+
+#: common.php:185
+#: form_detail.php:1106
+msgid "User Email"
+msgstr "Användarens e-postadress"
+
+#: common.php:186
+#: form_detail.php:1107
+msgid "User Login"
+msgstr "Användarlogin"
+
+#: common.php:570
+#, php-format
+msgid "%s ago"
+msgstr "%s sedan"
+
+#: common.php:572
+#: common.php:575
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s sedan %2$s"
+
+#: common.php:725
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: common.php:725
+msgid "Albania"
+msgstr "Albanien"
+
+#: common.php:725
+msgid "Algeria"
+msgstr "Algeriet"
+
+#: common.php:725
+msgid "American Samoa"
+msgstr "Amerikanska Samoa"
+
+#: common.php:725
+msgid "Andorra"
+msgstr "Andorra"
+
+#: common.php:725
+msgid "Angola"
+msgstr "Angola"
+
+#: common.php:725
+msgid "Antigua and Barbuda"
+msgstr "Antigua och Barbuda"
+
+#: common.php:725
+msgid "Argentina"
+msgstr "Argentina"
+
+#: common.php:725
+msgid "Armenia"
+msgstr "Armenien"
+
+#: common.php:725
+#: form_detail.php:722
+msgid "Australia"
+msgstr "Australien"
+
+#: common.php:725
+msgid "Austria"
+msgstr "Österrike"
+
+#: common.php:725
+msgid "Azerbaijan"
+msgstr "Azerbajdzjan"
+
+#: common.php:725
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: common.php:725
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: common.php:725
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: common.php:725
+msgid "Barbados"
+msgstr "Barbados"
+
+#: common.php:725
+msgid "Belarus"
+msgstr "Belarus"
+
+#: common.php:725
+msgid "Belgium"
+msgstr "Belgien"
+
+#: common.php:725
+msgid "Belize"
+msgstr "Belize"
+
+#: common.php:725
+msgid "Benin"
+msgstr "Benin"
+
+#: common.php:725
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: common.php:725
+msgid "Bhutan"
+msgstr ""
+
+#: common.php:725
+msgid "Bolivia"
+msgstr ""
+
+#: common.php:725
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien och Hercegovina"
+
+#: common.php:725
+msgid "Botswana"
+msgstr ""
+
+#: common.php:725
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: common.php:725
+msgid "Brunei"
+msgstr ""
+
+#: common.php:725
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: common.php:725
+msgid "Burkina Faso"
+msgstr ""
+
+#: common.php:725
+msgid "Burundi"
+msgstr ""
+
+#: common.php:725
+msgid "Cambodia"
+msgstr "Kambodja"
+
+#: common.php:725
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: common.php:725
+msgid "Canada"
+msgstr "Kanada"
+
+#: common.php:725
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+#: common.php:725
+msgid "Central African Republic"
+msgstr "Centralafrikanska Republiken"
+
+#: common.php:725
+msgid "Chad"
+msgstr "Tchad"
+
+#: common.php:725
+msgid "Chile"
+msgstr ""
+
+#: common.php:725
+msgid "China"
+msgstr "Kina"
+
+#: common.php:725
+msgid "Colombia"
+msgstr ""
+
+#: common.php:725
+msgid "Comoros"
+msgstr "Komorerna"
+
+#: common.php:725
+msgid "Congo"
+msgstr "Kongo"
+
+#: common.php:725
+msgid "Costa Rica"
+msgstr ""
+
+#: common.php:725
+msgid "C&ocirc;te d'Ivoire"
+msgstr "Elfenbenskusten"
+
+#: common.php:725
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: common.php:725
+msgid "Cuba"
+msgstr "Kuba"
+
+#: common.php:725
+msgid "Cyprus"
+msgstr "Cypern"
+
+#: common.php:725
+msgid "Czech Republic"
+msgstr "Tjeckien"
+
+#: common.php:725
+msgid "Denmark"
+msgstr "Danmark"
+
+#: common.php:725
+msgid "Djibouti"
+msgstr ""
+
+#: common.php:725
+msgid "Dominica"
+msgstr ""
+
+#: common.php:725
+msgid "Dominican Republic"
+msgstr "Dominikanska Republiken"
+
+#: common.php:725
+msgid "East Timor"
+msgstr "Östtimor"
+
+#: common.php:725
+msgid "Ecuador"
+msgstr ""
+
+#: common.php:725
+msgid "Egypt"
+msgstr "Egypten"
+
+#: common.php:725
+msgid "El Salvador"
+msgstr ""
+
+#: common.php:725
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: common.php:725
+msgid "Eritrea"
+msgstr ""
+
+#: common.php:725
+msgid "Estonia"
+msgstr "Estonia"
+
+#: common.php:725
+msgid "Ethiopia"
+msgstr "Etiopien"
+
+#: common.php:725
+msgid "Fiji"
+msgstr ""
+
+#: common.php:725
+msgid "Finland"
+msgstr ""
+
+#: common.php:725
+msgid "France"
+msgstr "Frankrike"
+
+#: common.php:725
+msgid "Gabon"
+msgstr ""
+
+#: common.php:726
+msgid "Gambia"
+msgstr ""
+
+#: common.php:726
+#: common.php:941
+msgid "Georgia"
+msgstr "Georgien"
+
+#: common.php:726
+msgid "Germany"
+msgstr "Tyskland"
+
+#: common.php:726
+msgid "Ghana"
+msgstr ""
+
+#: common.php:726
+msgid "Greece"
+msgstr "Grekland"
+
+#: common.php:726
+msgid "Grenada"
+msgstr ""
+
+#: common.php:726
+msgid "Guam"
+msgstr ""
+
+#: common.php:726
+msgid "Guatemala"
+msgstr ""
+
+#: common.php:726
+msgid "Guinea"
+msgstr ""
+
+#: common.php:726
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: common.php:726
+msgid "Guyana"
+msgstr ""
+
+#: common.php:726
+msgid "Haiti"
+msgstr ""
+
+#: common.php:726
+msgid "Honduras"
+msgstr ""
+
+#: common.php:726
+msgid "Hong Kong"
+msgstr ""
+
+#: common.php:726
+msgid "Hungary"
+msgstr "Ungern"
+
+#: common.php:726
+msgid "Iceland"
+msgstr "Island"
+
+#: common.php:726
+msgid "India"
+msgstr "Indien"
+
+#: common.php:726
+msgid "Indonesia"
+msgstr "Indonesien"
+
+#: common.php:726
+msgid "Iran"
+msgstr ""
+
+#: common.php:726
+msgid "Iraq"
+msgstr "Irak"
+
+#: common.php:726
+msgid "Ireland"
+msgstr "Island"
+
+#: common.php:726
+msgid "Israel"
+msgstr ""
+
+#: common.php:726
+msgid "Italy"
+msgstr "Italien"
+
+#: common.php:726
+msgid "Jamaica"
+msgstr ""
+
+#: common.php:726
+msgid "Japan"
+msgstr ""
+
+#: common.php:726
+msgid "Jordan"
+msgstr ""
+
+#: common.php:726
+msgid "Kazakhstan"
+msgstr "Kazakstan"
+
+#: common.php:726
+msgid "Kenya"
+msgstr ""
+
+#: common.php:726
+msgid "Kiribati"
+msgstr ""
+
+#: common.php:726
+msgid "North Korea"
+msgstr "Nord Korea"
+
+#: common.php:726
+msgid "South Korea"
+msgstr "Syd Korea"
+
+#: common.php:726
+msgid "Kuwait"
+msgstr ""
+
+#: common.php:726
+msgid "Kyrgyzstan"
+msgstr "Kirgizistan"
+
+#: common.php:726
+msgid "Laos"
+msgstr ""
+
+#: common.php:726
+msgid "Latvia"
+msgstr "Litauen"
+
+#: common.php:726
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: common.php:726
+msgid "Lesotho"
+msgstr ""
+
+#: common.php:726
+msgid "Liberia"
+msgstr ""
+
+#: common.php:726
+msgid "Libya"
+msgstr "Libyen"
+
+#: common.php:726
+msgid "Liechtenstein"
+msgstr ""
+
+#: common.php:726
+msgid "Lithuania"
+msgstr "Litauen"
+
+#: common.php:726
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: common.php:726
+msgid "Macedonia"
+msgstr "Makedonien"
+
+#: common.php:726
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: common.php:726
+msgid "Malawi"
+msgstr ""
+
+#: common.php:726
+msgid "Malaysia"
+msgstr ""
+
+#: common.php:726
+msgid "Maldives"
+msgstr "Maldiverna"
+
+#: common.php:726
+msgid "Mali"
+msgstr ""
+
+#: common.php:726
+msgid "Malta"
+msgstr ""
+
+#: common.php:726
+msgid "Marshall Islands"
+msgstr "Marshallöarna"
+
+#: common.php:726
+msgid "Mauritania"
+msgstr "Mauretanien"
+
+#: common.php:726
+msgid "Mauritius"
+msgstr ""
+
+#: common.php:726
+msgid "Mexico"
+msgstr ""
+
+#: common.php:726
+msgid "Micronesia"
+msgstr "Mikronesien"
+
+#: common.php:726
+msgid "Moldova"
+msgstr "Moldavien"
+
+#: common.php:726
+msgid "Monaco"
+msgstr ""
+
+#: common.php:726
+msgid "Mongolia"
+msgstr "Mongoliet"
+
+#: common.php:726
+msgid "Montenegro"
+msgstr ""
+
+#: common.php:726
+msgid "Morocco"
+msgstr "Marocko"
+
+#: common.php:726
+msgid "Mozambique"
+msgstr "Mocambique"
+
+#: common.php:726
+msgid "Myanmar"
+msgstr ""
+
+#: common.php:726
+msgid "Namibia"
+msgstr ""
+
+#: common.php:726
+msgid "Nauru"
+msgstr ""
+
+#: common.php:726
+msgid "Nepal"
+msgstr ""
+
+#: common.php:726
+msgid "Netherlands"
+msgstr "Nederländerna"
+
+#: common.php:726
+msgid "New Zealand"
+msgstr "Nya Zeeland"
+
+#: common.php:727
+msgid "Nicaragua"
+msgstr ""
+
+#: common.php:727
+msgid "Niger"
+msgstr ""
+
+#: common.php:727
+msgid "Nigeria"
+msgstr ""
+
+#: common.php:727
+msgid "Norway"
+msgstr "Norge"
+
+#: common.php:727
+msgid "Northern Mariana Islands"
+msgstr "Nordmarianerna"
+
+#: common.php:727
+msgid "Oman"
+msgstr ""
+
+#: common.php:727
+msgid "Pakistan"
+msgstr ""
+
+#: common.php:727
+msgid "Palau"
+msgstr ""
+
+#: common.php:727
+msgid "Palestine"
+msgstr "Palestina"
+
+#: common.php:727
+msgid "Panama"
+msgstr ""
+
+#: common.php:727
+msgid "Papua New Guinea"
+msgstr "Papua Nya Guinea"
+
+#: common.php:727
+msgid "Paraguay"
+msgstr ""
+
+#: common.php:727
+msgid "Peru"
+msgstr ""
+
+#: common.php:727
+msgid "Philippines"
+msgstr "Filippinerna"
+
+#: common.php:727
+msgid "Poland"
+msgstr "Polen"
+
+#: common.php:727
+msgid "Portugal"
+msgstr ""
+
+#: common.php:727
+msgid "Puerto Rico"
+msgstr ""
+
+#: common.php:727
+msgid "Qatar"
+msgstr ""
+
+#: common.php:727
+msgid "Romania"
+msgstr "Rumänien"
+
+#: common.php:727
+msgid "Russia"
+msgstr "Ryssland"
+
+#: common.php:727
+msgid "Rwanda"
+msgstr ""
+
+#: common.php:727
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts och Nevis"
+
+#: common.php:727
+msgid "Saint Lucia"
+msgstr ""
+
+#: common.php:727
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent och Grenadinerna"
+
+#: common.php:727
+msgid "Samoa"
+msgstr ""
+
+#: common.php:727
+msgid "San Marino"
+msgstr ""
+
+#: common.php:727
+msgid "Sao Tome and Principe"
+msgstr "Sao Tomé och Príncipe"
+
+#: common.php:727
+msgid "Saudi Arabia"
+msgstr "Saudarabien"
+
+#: common.php:727
+msgid "Senegal"
+msgstr ""
+
+#: common.php:727
+msgid "Serbia and Montenegro"
+msgstr "Serbien och Montenegro"
+
+#: common.php:727
+msgid "Seychelles"
+msgstr "Seychellerna"
+
+#: common.php:727
+msgid "Sierra Leone"
+msgstr ""
+
+#: common.php:727
+msgid "Singapore"
+msgstr ""
+
+#: common.php:727
+msgid "Slovakia"
+msgstr "Slovakien"
+
+#: common.php:727
+msgid "Slovenia"
+msgstr "Slovenien"
+
+#: common.php:727
+msgid "Solomon Islands"
+msgstr "Salomonöarna"
+
+#: common.php:727
+msgid "Somalia"
+msgstr ""
+
+#: common.php:727
+msgid "South Africa"
+msgstr "Sydafrika"
+
+#: common.php:727
+msgid "Spain"
+msgstr "Spanien"
+
+#: common.php:727
+msgid "Sri Lanka"
+msgstr ""
+
+#: common.php:727
+msgid "Sudan"
+msgstr ""
+
+#: common.php:727
+msgid "Suriname"
+msgstr "Surinam"
+
+#: common.php:727
+msgid "Swaziland"
+msgstr ""
+
+#: common.php:727
+msgid "Sweden"
+msgstr "Sverige"
+
+#: common.php:727
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: common.php:727
+msgid "Syria"
+msgstr "Syrien"
+
+#: common.php:727
+msgid "Taiwan"
+msgstr ""
+
+#: common.php:727
+msgid "Tajikistan"
+msgstr "Tadzjikistan"
+
+#: common.php:727
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: common.php:727
+msgid "Thailand"
+msgstr ""
+
+#: common.php:727
+msgid "Togo"
+msgstr ""
+
+#: common.php:727
+msgid "Tonga"
+msgstr ""
+
+#: common.php:727
+msgid "Trinidad and Tobago"
+msgstr "Trinidad och Tobago"
+
+#: common.php:727
+msgid "Tunisia"
+msgstr "Tunisien"
+
+#: common.php:727
+msgid "Turkey"
+msgstr "Turkiet"
+
+#: common.php:727
+msgid "Turkmenistan"
+msgstr ""
+
+#: common.php:727
+msgid "Tuvalu"
+msgstr ""
+
+#: common.php:727
+msgid "Uganda"
+msgstr ""
+
+#: common.php:727
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: common.php:727
+msgid "United Arab Emirates"
+msgstr "Förenade Arabemiraten"
+
+#: common.php:727
+msgid "United Kingdom"
+msgstr "Storbritannien"
+
+#: common.php:728
+#: form_detail.php:577
+msgid "United States"
+msgstr "Usa"
+
+#: common.php:728
+msgid "Uruguay"
+msgstr ""
+
+#: common.php:728
+msgid "Uzbekistan"
+msgstr ""
+
+#: common.php:728
+msgid "Vanuatu"
+msgstr "Venatu"
+
+#: common.php:728
+msgid "Vatican City"
+msgstr "Vatikanen"
+
+#: common.php:728
+msgid "Venezuela"
+msgstr ""
+
+#: common.php:728
+msgid "Vietnam"
+msgstr ""
+
+#: common.php:728
+msgid "Virgin Islands, British"
+msgstr "Jungfruöarna, Brittiska"
+
+#: common.php:728
+msgid "Virgin Islands, U.S."
+msgstr "Jungfruöarna, Amerikanska"
+
+#: common.php:728
+msgid "Yemen"
+msgstr "Jemen"
+
+#: common.php:728
+msgid "Zambia"
+msgstr ""
+
+#: common.php:728
+msgid "Zimbabwe"
+msgstr ""
+
+#: common.php:734
+msgid "AFGHANISTAN"
+msgstr ""
+
+#: common.php:735
+msgid "ALBANIA"
+msgstr "ALBANIEN"
+
+#: common.php:736
+msgid "ALGERIA"
+msgstr "ALGERIET"
+
+#: common.php:737
+msgid "AMERICAN SAMOA"
+msgstr "AMERIKANSKA SAMOA"
+
+#: common.php:738
+msgid "ANDORRA"
+msgstr ""
+
+#: common.php:739
+msgid "ANGOLA"
+msgstr ""
+
+#: common.php:740
+msgid "ANTIGUA AND BARBUDA"
+msgstr "ANTIGUA OCH BARBUDA"
+
+#: common.php:741
+msgid "ARGENTINA"
+msgstr ""
+
+#: common.php:742
+msgid "ARMENIA"
+msgstr "ARMENIEN"
+
+#: common.php:743
+msgid "AUSTRALIA"
+msgstr "AUSTRALIEN"
+
+#: common.php:744
+msgid "AUSTRIA"
+msgstr "ÖSTERRIKE"
+
+#: common.php:745
+msgid "AZERBAIJAN"
+msgstr "AZERBAJDZJAN"
+
+#: common.php:746
+msgid "BAHAMAS"
+msgstr ""
+
+#: common.php:747
+msgid "BAHRAIN"
+msgstr ""
+
+#: common.php:748
+msgid "BANGLADESH"
+msgstr ""
+
+#: common.php:749
+msgid "BARBADOS"
+msgstr ""
+
+#: common.php:750
+msgid "BELARUS"
+msgstr "VITRYSSLAND"
+
+#: common.php:751
+msgid "BELGIUM"
+msgstr "BELGIEN"
+
+#: common.php:752
+msgid "BELIZE"
+msgstr ""
+
+#: common.php:753
+msgid "BENIN"
+msgstr ""
+
+#: common.php:754
+msgid "BERMUDA"
+msgstr ""
+
+#: common.php:755
+msgid "BHUTAN"
+msgstr ""
+
+#: common.php:756
+msgid "BOLIVIA"
+msgstr ""
+
+#: common.php:757
+msgid "BOSNIA AND HERZEGOVINA"
+msgstr "BOSNIEN OCH HERCEGOVINA"
+
+#: common.php:758
+msgid "BOTSWANA"
+msgstr ""
+
+#: common.php:759
+msgid "BRAZIL"
+msgstr "BRASILIEN"
+
+#: common.php:760
+msgid "BRUNEI"
+msgstr ""
+
+#: common.php:761
+msgid "BULGARIA"
+msgstr "BULGARIEN"
+
+#: common.php:762
+msgid "BURKINA FASO"
+msgstr ""
+
+#: common.php:763
+msgid "BURUNDI"
+msgstr ""
+
+#: common.php:764
+msgid "CAMBODIA"
+msgstr "KAMBODJA"
+
+#: common.php:765
+msgid "CAMEROON"
+msgstr "KAMERUN"
+
+#: common.php:766
+msgid "CANADA"
+msgstr "KANADA"
+
+#: common.php:767
+msgid "CAPE VERDE"
+msgstr "KAP VERDE"
+
+#: common.php:768
+msgid "CENTRAL AFRICAN REPUBLIC"
+msgstr "CENTRALAFRIKANSKA REPUBLIKEN"
+
+#: common.php:769
+msgid "CHAD"
+msgstr "TCHAD"
+
+#: common.php:770
+msgid "CHILE"
+msgstr ""
+
+#: common.php:771
+msgid "CHINA"
+msgstr "KINA"
+
+#: common.php:772
+msgid "COLOMBIA"
+msgstr ""
+
+#: common.php:773
+msgid "COMOROS"
+msgstr "KOMORERNA"
+
+#: common.php:774
+msgid "CONGO"
+msgstr "KONGO"
+
+#: common.php:775
+msgid "COSTA RICA"
+msgstr ""
+
+#: common.php:776
+msgid "C&OCIRC;TE D'IVOIRE"
+msgstr "ELFENBENSKUSTEN"
+
+#: common.php:777
+msgid "CROATIA"
+msgstr "KROATIEN"
+
+#: common.php:778
+msgid "CUBA"
+msgstr "KUBA"
+
+#: common.php:779
+msgid "CYPRUS"
+msgstr "CYPERN"
+
+#: common.php:780
+msgid "CZECH REPUBLIC"
+msgstr "TJECKISKA REPUBLIKEN"
+
+#: common.php:781
+msgid "DENMARK"
+msgstr "DANMARK"
+
+#: common.php:782
+msgid "DJIBOUTI"
+msgstr ""
+
+#: common.php:783
+msgid "DOMINICA"
+msgstr ""
+
+#: common.php:784
+msgid "DOMINICAN REPUBLIC"
+msgstr "DOMINIKANSKA REPUBLIKEN"
+
+#: common.php:785
+msgid "EAST TIMOR"
+msgstr "ÖSTTIMOR"
+
+#: common.php:786
+msgid "ECUADOR"
+msgstr ""
+
+#: common.php:787
+msgid "EGYPT"
+msgstr "EGYPTEN"
+
+#: common.php:788
+msgid "EL SALVADOR"
+msgstr ""
+
+#: common.php:789
+msgid "EQUATORIAL GUINEA"
+msgstr ""
+
+#: common.php:790
+msgid "ERITREA"
+msgstr ""
+
+#: common.php:791
+msgid "ESTONIA"
+msgstr "ESTLAND"
+
+#: common.php:792
+msgid "ETHIOPIA"
+msgstr "ETIOPIEN"
+
+#: common.php:793
+msgid "FIJI"
+msgstr ""
+
+#: common.php:794
+msgid "FINLAND"
+msgstr ""
+
+#: common.php:795
+msgid "FRANCE"
+msgstr "FRANKRIKE"
+
+#: common.php:796
+msgid "GABON"
+msgstr ""
+
+#: common.php:797
+msgid "GAMBIA"
+msgstr ""
+
+#: common.php:798
+msgid "GEORGIA"
+msgstr "GEORGIEN"
+
+#: common.php:799
+msgid "GERMANY"
+msgstr "TYSKLAND"
+
+#: common.php:800
+msgid "GHANA"
+msgstr ""
+
+#: common.php:801
+msgid "GREECE"
+msgstr "GREKLAND"
+
+#: common.php:802
+msgid "GRENADA"
+msgstr ""
+
+#: common.php:803
+msgid "GUAM"
+msgstr ""
+
+#: common.php:804
+msgid "GUATEMALA"
+msgstr ""
+
+#: common.php:805
+msgid "GUINEA"
+msgstr ""
+
+#: common.php:806
+msgid "GUINEA-BISSAU"
+msgstr ""
+
+#: common.php:807
+msgid "GUYANA"
+msgstr ""
+
+#: common.php:808
+msgid "HAITI"
+msgstr ""
+
+#: common.php:809
+msgid "HONDURAS"
+msgstr ""
+
+#: common.php:810
+msgid "HONG KONG"
+msgstr ""
+
+#: common.php:811
+msgid "HUNGARY"
+msgstr "UNGERN"
+
+#: common.php:812
+msgid "ICELAND"
+msgstr "ISLAND"
+
+#: common.php:813
+msgid "INDIA"
+msgstr "INDIEN"
+
+#: common.php:814
+msgid "INDONESIA"
+msgstr "INDONESIEN"
+
+#: common.php:815
+msgid "IRAN"
+msgstr ""
+
+#: common.php:816
+msgid "IRAQ"
+msgstr "IRAK"
+
+#: common.php:817
+msgid "IRELAND"
+msgstr "IRLAND"
+
+#: common.php:818
+msgid "ISRAEL"
+msgstr ""
+
+#: common.php:819
+msgid "ITALY"
+msgstr "ITALIEN"
+
+#: common.php:820
+msgid "JAMAICA"
+msgstr ""
+
+#: common.php:821
+msgid "JAPAN"
+msgstr ""
+
+#: common.php:822
+msgid "JORDAN"
+msgstr "JORDANIEN"
+
+#: common.php:823
+msgid "KAZAKHSTAN"
+msgstr "KAZAKSTAN"
+
+#: common.php:824
+msgid "KENYA"
+msgstr ""
+
+#: common.php:825
+msgid "KIRIBATI"
+msgstr ""
+
+#: common.php:826
+msgid "NORTH KOREA"
+msgstr "NORD KOREA"
+
+#: common.php:827
+msgid "SOUTH KOREA"
+msgstr "SYD KOREA"
+
+#: common.php:828
+msgid "KUWAIT"
+msgstr ""
+
+#: common.php:829
+msgid "KYRGYZSTAN"
+msgstr "KIRGIZISTAN"
+
+#: common.php:830
+msgid "LAOS"
+msgstr ""
+
+#: common.php:831
+msgid "LATVIA"
+msgstr "LETTLAND"
+
+#: common.php:832
+msgid "LEBANON"
+msgstr "LIBANON"
+
+#: common.php:833
+msgid "LESOTHO"
+msgstr ""
+
+#: common.php:834
+msgid "LIBERIA"
+msgstr ""
+
+#: common.php:835
+msgid "LIBYA"
+msgstr "LIBYEN"
+
+#: common.php:836
+msgid "LIECHTENSTEIN"
+msgstr ""
+
+#: common.php:837
+msgid "LITHUANIA"
+msgstr "LITAUEN"
+
+#: common.php:838
+msgid "LUXEMBOURG"
+msgstr "LUXEMBURG"
+
+#: common.php:839
+msgid "MACEDONIA"
+msgstr "MAKEDONIEN"
+
+#: common.php:840
+msgid "MADAGASCAR"
+msgstr "MADAGASKAR"
+
+#: common.php:841
+msgid "MALAWI"
+msgstr ""
+
+#: common.php:842
+msgid "MALAYSIA"
+msgstr ""
+
+#: common.php:843
+msgid "MALDIVES"
+msgstr "MALDIVERNA"
+
+#: common.php:844
+msgid "MALI"
+msgstr ""
+
+#: common.php:845
+msgid "MALTA"
+msgstr ""
+
+#: common.php:846
+msgid "MARSHALL ISLANDS"
+msgstr "MARSHALLÖARNA"
+
+#: common.php:847
+msgid "MAURITANIA"
+msgstr "MAURETANIEN"
+
+#: common.php:848
+msgid "MAURITIUS"
+msgstr ""
+
+#: common.php:849
+msgid "MEXICO"
+msgstr ""
+
+#: common.php:850
+msgid "MICRONESIA"
+msgstr "MIKRONESIEN"
+
+#: common.php:851
+msgid "MOLDOVA"
+msgstr "MOLDAVIEN"
+
+#: common.php:852
+msgid "MONACO"
+msgstr ""
+
+#: common.php:853
+msgid "MONGOLIA"
+msgstr "MONGOLIET"
+
+#: common.php:854
+msgid "MONTENEGRO"
+msgstr ""
+
+#: common.php:855
+msgid "MOROCCO"
+msgstr "MAROCKO"
+
+#: common.php:856
+msgid "MOZAMBIQUE"
+msgstr "MOCAMBIQUE"
+
+#: common.php:857
+msgid "MYANMAR"
+msgstr ""
+
+#: common.php:858
+msgid "NAMIBIA"
+msgstr ""
+
+#: common.php:859
+msgid "NAURU"
+msgstr ""
+
+#: common.php:860
+msgid "NEPAL"
+msgstr ""
+
+#: common.php:861
+msgid "NETHERLANDS"
+msgstr "NEDERLÄNDERNA"
+
+#: common.php:862
+msgid "NEW ZEALAND"
+msgstr "NYA ZEELAND"
+
+#: common.php:863
+msgid "NICARAGUA"
+msgstr ""
+
+#: common.php:864
+msgid "NIGER"
+msgstr ""
+
+#: common.php:865
+msgid "NIGERIA"
+msgstr ""
+
+#: common.php:866
+msgid "NORTHERN MARIANA ISLANDS"
+msgstr "NORDMARIANERNA"
+
+#: common.php:867
+msgid "NORWAY"
+msgstr "NORGE"
+
+#: common.php:868
+msgid "OMAN"
+msgstr ""
+
+#: common.php:869
+msgid "PAKISTAN"
+msgstr ""
+
+#: common.php:870
+msgid "PALAU"
+msgstr ""
+
+#: common.php:871
+msgid "PALESTINE"
+msgstr "PALESTINA"
+
+#: common.php:872
+msgid "PANAMA"
+msgstr ""
+
+#: common.php:873
+msgid "PAPUA NEW GUINEA"
+msgstr "PAPAUA NYA GUINEA"
+
+#: common.php:874
+msgid "PARAGUAY"
+msgstr ""
+
+#: common.php:875
+msgid "PERU"
+msgstr ""
+
+#: common.php:876
+msgid "PHILIPPINES"
+msgstr "FILIPINERNA"
+
+#: common.php:877
+msgid "POLAND"
+msgstr "POLEN"
+
+#: common.php:878
+msgid "PORTUGAL"
+msgstr ""
+
+#: common.php:879
+msgid "PUERTO RICO"
+msgstr ""
+
+#: common.php:880
+msgid "QATAR"
+msgstr ""
+
+#: common.php:881
+msgid "ROMANIA"
+msgstr "RUMÄNIEN"
+
+#: common.php:882
+msgid "RUSSIA"
+msgstr "RYSSLAND"
+
+#: common.php:883
+msgid "RWANDA"
+msgstr ""
+
+#: common.php:884
+msgid "SAINT KITTS AND NEVIS"
+msgstr "SAINT KITTS OCH NEVIS"
+
+#: common.php:885
+msgid "SAINT LUCIA"
+msgstr ""
+
+#: common.php:886
+msgid "SAINT VINCENT AND THE GRENADINES"
+msgstr "SAINT VINCENT OCH GRENADINERNA"
+
+#: common.php:887
+msgid "SAMOA"
+msgstr ""
+
+#: common.php:888
+msgid "SAN MARINO"
+msgstr ""
+
+#: common.php:889
+msgid "SAO TOME AND PRINCIPE"
+msgstr "SAO TOMÉ OCH PRÍNCIPE"
+
+#: common.php:890
+msgid "SAUDI ARABIA"
+msgstr "SAUDIARABIEN"
+
+#: common.php:891
+msgid "SENEGAL"
+msgstr ""
+
+#: common.php:892
+msgid "SERBIA AND MONTENEGRO"
+msgstr "SERBIA OCH MONTENEGRO"
+
+#: common.php:893
+msgid "SEYCHELLES"
+msgstr "SEYCHELLERNA"
+
+#: common.php:894
+msgid "SIERRA LEONE"
+msgstr ""
+
+#: common.php:895
+msgid "SINGAPORE"
+msgstr ""
+
+#: common.php:896
+msgid "SLOVAKIA"
+msgstr "SLOVAKIEN"
+
+#: common.php:897
+msgid "SLOVENIA"
+msgstr "SLOVENIEN"
+
+#: common.php:898
+msgid "SOLOMON ISLANDS"
+msgstr "SALOMONÖARNA"
+
+#: common.php:899
+msgid "SOMALIA"
+msgstr ""
+
+#: common.php:900
+msgid "SOUTH AFRICA"
+msgstr "SYD AFRIKA"
+
+#: common.php:901
+msgid "SPAIN"
+msgstr "SPANIEN"
+
+#: common.php:902
+msgid "SRI LANKA"
+msgstr ""
+
+#: common.php:903
+msgid "SUDAN"
+msgstr ""
+
+#: common.php:904
+msgid "SURINAME"
+msgstr "SURINAM"
+
+#: common.php:905
+msgid "SWAZILAND"
+msgstr ""
+
+#: common.php:906
+msgid "SWEDEN"
+msgstr "SVERIGE"
+
+#: common.php:907
+msgid "SWITZERLAND"
+msgstr "SCHWEIZ"
+
+#: common.php:908
+msgid "SYRIA"
+msgstr "SYRIEN"
+
+#: common.php:909
+msgid "TAIWAN"
+msgstr ""
+
+#: common.php:910
+msgid "TAJIKISTAN"
+msgstr "TADZJIKISTAN"
+
+#: common.php:911
+msgid "TANZANIA"
+msgstr ""
+
+#: common.php:912
+msgid "THAILAND"
+msgstr ""
+
+#: common.php:913
+msgid "TOGO"
+msgstr ""
+
+#: common.php:914
+msgid "TONGA"
+msgstr ""
+
+#: common.php:915
+msgid "TRINIDAD AND TOBAGO"
+msgstr "TRINIDAD OCH TOBAGO"
+
+#: common.php:916
+msgid "TUNISIA"
+msgstr "TUNISIEN"
+
+#: common.php:917
+msgid "TURKEY"
+msgstr "TURKIET"
+
+#: common.php:918
+msgid "TURKMENISTAN"
+msgstr ""
+
+#: common.php:919
+msgid "TUVALU"
+msgstr ""
+
+#: common.php:920
+msgid "UGANDA"
+msgstr ""
+
+#: common.php:921
+msgid "UKRAINE"
+msgstr "UKRAINA"
+
+#: common.php:922
+msgid "UNITED ARAB EMIRATES"
+msgstr "FÖRENADE ARABEMIRATEN"
+
+#: common.php:923
+msgid "UNITED KINGDOM"
+msgstr "STORBRITANNIEN"
+
+#: common.php:924
+msgid "UNITED STATES"
+msgstr "USA"
+
+#: common.php:925
+msgid "URUGUAY"
+msgstr ""
+
+#: common.php:926
+msgid "UZBEKISTAN"
+msgstr "UZBEKISTAN"
+
+#: common.php:927
+msgid "VANUATU"
+msgstr "VANATU"
+
+#: common.php:928
+msgid "VATICAN CITY"
+msgstr "VATIKANEN"
+
+#: common.php:929
+msgid "VENEZUELA"
+msgstr ""
+
+#: common.php:930
+msgid "VIRGIN ISLANDS, BRITISH"
+msgstr "JUNGFRUÖARNA, BRITTISKA"
+
+#: common.php:931
+msgid "VIRGIN ISLANDS, U.S."
+msgstr "JUNGFRUÖARNA, AMERIKANSKA"
+
+#: common.php:932
+msgid "VIETNAM"
+msgstr ""
+
+#: common.php:933
+msgid "YEMEN"
+msgstr ""
+
+#: common.php:934
+msgid "ZAMBIA"
+msgstr ""
+
+#: common.php:935
+msgid "ZIMBABWE"
+msgstr ""
+
+#: common.php:941
+msgid "Alabama"
+msgstr ""
+
+#: common.php:941
+msgid "Alaska"
+msgstr ""
+
+#: common.php:941
+msgid "Arizona"
+msgstr ""
+
+#: common.php:941
+msgid "Arkansas"
+msgstr ""
+
+#: common.php:941
+msgid "California"
+msgstr ""
+
+#: common.php:941
+msgid "Colorado"
+msgstr ""
+
+#: common.php:941
+msgid "Connecticut"
+msgstr ""
+
+#: common.php:941
+msgid "Delaware"
+msgstr ""
+
+#: common.php:941
+msgid "District of Columbia"
+msgstr ""
+
+#: common.php:941
+msgid "Florida"
+msgstr ""
+
+#: common.php:941
+msgid "Hawaii"
+msgstr ""
+
+#: common.php:941
+msgid "Idaho"
+msgstr ""
+
+#: common.php:941
+msgid "Illinois"
+msgstr ""
+
+#: common.php:941
+msgid "Indiana"
+msgstr ""
+
+#: common.php:941
+msgid "Iowa"
+msgstr ""
+
+#: common.php:941
+msgid "Kansas"
+msgstr ""
+
+#: common.php:941
+msgid "Kentucky"
+msgstr ""
+
+#: common.php:941
+msgid "Louisiana"
+msgstr ""
+
+#: common.php:941
+msgid "Maine"
+msgstr ""
+
+#: common.php:941
+msgid "Maryland"
+msgstr ""
+
+#: common.php:941
+msgid "Massachusetts"
+msgstr ""
+
+#: common.php:941
+msgid "Michigan"
+msgstr ""
+
+#: common.php:941
+msgid "Minnesota"
+msgstr ""
+
+#: common.php:941
+msgid "Mississippi"
+msgstr ""
+
+#: common.php:941
+msgid "Missouri"
+msgstr ""
+
+#: common.php:941
+msgid "Montana"
+msgstr ""
+
+#: common.php:941
+msgid "Nebraska"
+msgstr ""
+
+#: common.php:941
+msgid "Nevada"
+msgstr ""
+
+#: common.php:941
+msgid "New Hampshire"
+msgstr ""
+
+#: common.php:941
+msgid "New Jersey"
+msgstr ""
+
+#: common.php:941
+msgid "New Mexico"
+msgstr ""
+
+#: common.php:941
+msgid "New York"
+msgstr ""
+
+#: common.php:941
+msgid "North Carolina"
+msgstr ""
+
+#: common.php:941
+msgid "North Dakota"
+msgstr ""
+
+#: common.php:941
+msgid "Ohio"
+msgstr ""
+
+#: common.php:941
+msgid "Oklahoma"
+msgstr ""
+
+#: common.php:941
+msgid "Oregon"
+msgstr ""
+
+#: common.php:941
+msgid "Pennsylvania"
+msgstr ""
+
+#: common.php:941
+msgid "Rhode Island"
+msgstr ""
+
+#: common.php:941
+msgid "South Carolina"
+msgstr ""
+
+#: common.php:941
+msgid "South Dakota"
+msgstr ""
+
+#: common.php:941
+msgid "Tennessee"
+msgstr ""
+
+#: common.php:941
+msgid "Texas"
+msgstr ""
+
+#: common.php:941
+msgid "Utah"
+msgstr ""
+
+#: common.php:941
+msgid "Vermont"
+msgstr ""
+
+#: common.php:941
+msgid "Virginia"
+msgstr ""
+
+#: common.php:941
+msgid "Washington"
+msgstr ""
+
+#: common.php:941
+msgid "West Virginia"
+msgstr ""
+
+#: common.php:941
+msgid "Wisconsin"
+msgstr ""
+
+#: common.php:941
+msgid "Wyoming"
+msgstr ""
+
+#: common.php:945
+msgid "Alberta"
+msgstr ""
+
+#: common.php:945
+msgid "British Columbia"
+msgstr ""
+
+#: common.php:945
+msgid "Manitoba"
+msgstr ""
+
+#: common.php:945
+msgid "New Brunswick"
+msgstr ""
+
+#: common.php:945
+msgid "Newfoundland & Labrador"
+msgstr ""
+
+#: common.php:945
+msgid "Northwest Territories"
+msgstr ""
+
+#: common.php:945
+msgid "Nova Scotia"
+msgstr ""
+
+#: common.php:945
+msgid "Nunavut"
+msgstr ""
+
+#: common.php:945
+msgid "Ontario"
+msgstr ""
+
+#: common.php:945
+msgid "Prince Edward Island"
+msgstr ""
+
+#: common.php:945
+msgid "Quebec"
+msgstr ""
+
+#: common.php:945
+msgid "Saskatchewan"
+msgstr ""
+
+#: common.php:945
+msgid "Yukon"
+msgstr ""
+
+#: common.php:1054
+#: js.php:1458
+msgid "Phone format:"
+msgstr "Telefon rformat:"
+
+#: common.php:1102
+#: js.php:653
+msgid "File"
+msgstr "Fil"
+
+#: common.php:1104
+#: form_detail.php:139
+#: form_detail.php:556
+#: form_detail.php:976
+#: form_list.php:136
+#: form_list.php:154
+msgid "Title"
+msgstr "Titel"
+
+#: common.php:1105
+#: form_detail.php:561
+msgid "Caption"
+msgstr "Rubrik"
+
+#: common.php:1106
+#: form_detail.php:146
+#: form_detail.php:566
+#: form_detail.php:776
+msgid "Description"
+msgstr "Beskrivning"
+
+#: common.php:1138
+#: js.php:572
+msgid "Prefix"
+msgstr "Prefix"
+
+#: common.php:1138
+#: common.php:1144
+#: js.php:572
+#: js.php:578
+msgid "First"
+msgstr "Förnamn"
+
+#: common.php:1138
+#: common.php:1144
+#: js.php:572
+#: js.php:578
+msgid "Last"
+msgstr "Efternamn"
+
+#: common.php:1138
+#: js.php:572
+msgid "Suffix"
+msgstr "Suffix"
+
+#: common.php:1159
+#: js.php:44
+msgid "State"
+msgstr "Stat"
+
+#: common.php:1160
+#: js.php:41
+msgid "Zip Code"
+msgstr "Postnummer"
+
+#: common.php:1165
+#: js.php:59
+msgid "Province"
+msgstr "Provins"
+
+#: common.php:1166
+#: js.php:56
+msgid "Postal Code"
+msgstr "Postnummer"
+
+#: common.php:1171
+#: js.php:76
+msgid "State / Province / Region"
+msgstr "Stat / Provins / Region"
+
+#: common.php:1172
+#: js.php:73
+#: js.php:615
+msgid "Zip / Postal Code"
+msgstr "Postnummer"
+
+#: common.php:1182
+#: js.php:614
+msgid "Street Address"
+msgstr "Gatuadress"
+
+#: common.php:1186
+#: js.php:614
+msgid "Address Line 2"
+msgstr "Adressrad 2"
+
+#: common.php:1189
+#: js.php:614
+msgid "City"
+msgstr "Stad"
+
+#: common.php:1198
+#: js.php:615
+msgid "Country"
+msgstr "Land"
+
+#: common.php:1217
+#: common.php:1232
+#: common.php:1237
+#: common.php:1270
+msgid "MM"
+msgstr ""
+
+#: common.php:1218
+#: common.php:1233
+#: common.php:1236
+msgid "DD"
+msgstr ""
+
+#: common.php:1219
+#: common.php:1239
+msgid "YYYY"
+msgstr ""
+
+#: common.php:1270
+msgid "HH"
+msgstr ""
+
+#: common.php:1270
+msgid "AM"
+msgstr ""
+
+#: common.php:1270
+msgid "PM"
+msgstr ""
+
+#: common.php:1277
+msgid "Download file"
+msgstr "Hämta fil"
+
+#: common.php:1277
+msgid "Delete file"
+msgstr "Radera fil"
+
+#: common.php:1295
+msgid "To use the reCaptcha field you must first do the following:"
+msgstr "För att använda reCaptcha fältet måste du göra följande först:"
+
+#: common.php:1431
+#: common.php:1442
+#: entry_list.php:372
+#: entry_list.php:382
+msgid "Click to view"
+msgstr "Klicka för att se"
+
+#: download.php:9
+msgid "You don't have permission to download a file"
+msgstr "Du har inte rättigheter att hämta filen"
+
+#: entry_detail.php:16
+msgid "OOps! We couldn't find your lead. Please try again"
+msgstr "OOps! Vi kunde inte spåra. Försök igen."
+
+#: entry_detail.php:69
+msgid "Entry has been deleted."
+msgstr "Svaret har tagits bort."
+
+#: entry_detail.php:69
+msgid "Back to entries list"
+msgstr "Tillbaka till svarslistan"
+
+#: entry_detail.php:83
+msgid "'Would you like to delete this file? \\'Cancel\\' to stop. \\'OK\\' to delete'"
+msgstr "'Vill du radera den här filen? \\'Avbryt\\' för att avbryta. \\'OK\\' för att radera'"
+
+#: entry_detail.php:93
+#: js.php:421
+msgid "Ajax error while deleting field."
+msgstr "Ajax-fel när fältet skulle tas bort."
+
+#: entry_detail.php:138
+#: entry_list.php:224
+#: export.php:98
+#: form_detail.php:105
+#: form_list.php:85
+#: help.php:12
+#: notification.php:233
+msgid "Gravity Forms"
+msgstr ""
+
+#: entry_detail.php:139
+msgid "Entry #"
+msgstr "Svar #"
+
+#: entry_detail.php:140
+msgid "&laquo; back to entries list"
+msgstr "&laquo; tillbaka till svarslistan"
+
+#: entry_detail.php:145
+msgid "Info"
+msgstr "Info"
+
+#: entry_detail.php:152
+msgid "Submitted on"
+msgstr "Postat den"
+
+#: entry_detail.php:155
+#: export.php:176
+#: gravityforms.php:734
+#: select_columns.php:72
+msgid "User IP"
+msgstr "Användar IP"
+
+#: entry_detail.php:157
+msgid "Embed Url"
+msgstr "Inbäddad URL"
+
+#: entry_detail.php:163
+msgid "Edit Post"
+msgstr "Redigera post"
+
+#: entry_detail.php:163
+msgid "Click to edit post"
+msgstr "Klicka för att redigera posten"
+
+#: entry_detail.php:174
+msgid "You are about to delete this entry. \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "Du kommer radera det här svaret. \\'Avbryt\\' för att avbryta, \\'OK\\' för att radera."
+
+#: entry_detail.php:174
+#: entry_detail.php:338
+#: entry_list.php:251
+#: entry_list.php:427
+#: entry_list.php:472
+#: form_display.php:594
+#: form_list.php:110
+#: form_list.php:224
+#: form_list.php:260
+msgid "Delete"
+msgstr "Radera"
+
+#: entry_detail.php:182
+msgid "Edit Entry"
+msgstr "Redigera svar"
+
+#: entry_detail.php:182
+msgid "Update Entry"
+msgstr "Uppdatera svar"
+
+#: entry_detail.php:187
+#: gravityforms.php:475
+#: select_columns.php:120
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: entry_detail.php:206
+#: entry_detail.php:402
+msgid "Add Note"
+msgstr "Lägg till anteckning"
+
+#: entry_detail.php:239
+msgid "Notes"
+msgstr "Anteckningar"
+
+#: entry_detail.php:275
+msgid "Entry Updated."
+msgstr "Svaret uppdaterat."
+
+#: entry_detail.php:286
+msgid "Details"
+msgstr "Detaljer"
+
+#: entry_detail.php:335
+msgid " Bulk action"
+msgstr "Massåtgärd"
+
+#: entry_detail.php:337
+#: entry_list.php:248
+msgid " Bulk action "
+msgstr "Massåtgärd"
+
+#: entry_detail.php:341
+#: entry_list.php:260
+#: entry_list.php:479
+#: form_list.php:113
+#: form_list.php:263
+msgid "Apply"
+msgstr "Applicera"
+
+#: entry_detail.php:388
+msgid "added on"
+msgstr "tillagt den"
+
+#: entry_detail.php:409
+msgid "Also email this note to"
+msgstr "E-posta denna anteckning till"
+
+#: entry_detail.php:417
+msgid "Subject:"
+msgstr "Ämne:"
+
+#: entry_detail.php:441
+#: print-entry.php:32
+msgid "Entry # "
+msgstr "Svar #"
+
+#: entry_list.php:111
+msgid "&laquo;"
+msgstr ""
+
+#: entry_list.php:112
+msgid "&raquo;"
+msgstr ""
+
+#: entry_list.php:180
+msgid "Ajax error while setting lead property"
+msgstr "Ajax-fel när egenskapen skulle sättas"
+
+#: entry_list.php:225
+#: form_list.php:138
+#: form_list.php:156
+#: form_list.php:197
+#: gravityforms.php:347
+msgid "Entries"
+msgstr "Svar"
+
+#: entry_list.php:235
+#: form_list.php:96
+#: js.php:1040
+msgid "All"
+msgstr "Alla"
+
+#: entry_list.php:236
+msgid "Unread"
+msgstr "Olästa"
+
+#: entry_list.php:237
+msgid "Starred"
+msgstr "Stjärnmärkt"
+
+#: entry_list.php:240
+msgid "Search Entries:"
+msgstr "Sök svar:"
+
+#: entry_list.php:241
+msgid "Search"
+msgstr "Sök"
+
+#: entry_list.php:246
+#: entry_list.php:469
+#: form_list.php:107
+#: form_list.php:109
+#: form_list.php:257
+#: form_list.php:259
+msgid "Bulk action"
+msgstr "Massåtgärd"
+
+#: entry_list.php:254
+#: entry_list.php:473
+msgid "Mark as Read"
+msgstr "Markera som läst"
+
+#: entry_list.php:255
+#: entry_list.php:474
+msgid "Mark as Unread"
+msgstr "Markera som oläst"
+
+#: entry_list.php:256
+#: entry_list.php:475
+msgid "Add Star"
+msgstr "Lägg till stjärna"
+
+#: entry_list.php:257
+#: entry_list.php:476
+msgid "Remove Star"
+msgstr "Ta bort stjärna"
+
+#: entry_list.php:264
+#: gravityforms.php:457
+msgid "Select a Form"
+msgstr "Välj ett formulär"
+
+#: entry_list.php:284
+#: entry_list.php:489
+#, php-format
+msgid "Displaying %d - %d of %d"
+msgstr "Visar %d - %d av %d"
+
+#: entry_list.php:309
+msgid "Select Columns"
+msgstr "Välj kolumner"
+
+#: entry_list.php:416
+msgid "View this entry"
+msgstr "Visa detta svar"
+
+#: entry_list.php:416
+msgid "View"
+msgstr "Visa"
+
+#: entry_list.php:420
+msgid "Mark read"
+msgstr "Markera som läst"
+
+#: entry_list.php:420
+msgid "Mark this entry as unread"
+msgstr "Markera detta svar som oläst"
+
+#: entry_list.php:420
+msgid "Mark unread"
+msgstr "Markera som oläst"
+
+#: entry_list.php:427
+msgid "Delete this entry"
+msgstr "Radera detta svar"
+
+#: entry_list.php:427
+msgid "'You are about to delete this entry. \\'Cancel\\' to stop, \\'OK\\' to delete.'"
+msgstr "'Du kommer rader detta svar. \\'Avbryt\\' för att avbryta, \\'OK\\' för att radera.'"
+
+#: entry_list.php:456
+msgid "This form does not have any entries yet."
+msgstr "Formuläret har inga svar än."
+
+#: entry_list.php:471
+msgid "Bulk action "
+msgstr "Massåtgård"
+
+#: export.php:23
+msgid "Ajax error while selecting a form"
+msgstr "Ajax-fel när formuläret valdes"
+
+#: export.php:36
+msgid "Deselect All"
+msgstr "Välj bort alla"
+
+#: export.php:36
+msgid "Select All"
+msgstr "Välj alla"
+
+#: export.php:76
+msgid "Ajax error while exporting."
+msgstr "Ajax-fel vid exportering."
+
+#: export.php:99
+msgid "Export Form Entries"
+msgstr "Exportera formulärsvar"
+
+#: export.php:105
+msgid "Select A Form"
+msgstr "Välj ett formulär"
+
+#: export.php:109
+msgid "Select a form"
+msgstr "Välj ett formulär"
+
+#: export.php:123
+msgid "Select Fields"
+msgstr "Välj fält"
+
+#: export.php:130
+msgid "Select Date Range"
+msgstr "Välj datumområde"
+
+#: export.php:135
+msgid "Start"
+msgstr "Start"
+
+#: export.php:140
+msgid "End"
+msgstr "Slut"
+
+#: export.php:143
+msgid "Date Range is optional, if no date range is selected all entries will be exported."
+msgstr "Datumområde är valfritt, om inget datumområde väljs kommer allt exporteras."
+
+#: export.php:151
+msgid "Download Export File"
+msgstr "Hämta exportfil"
+
+#: export.php:153
+msgid "Exporting entries. Please wait..."
+msgstr "Exporterar svar. Vänta.."
+
+#: export.php:175
+#: gravityforms.php:733
+#: select_columns.php:71
+msgid "Entry Date"
+msgstr "Svarsdatum"
+
+#: export.php:177
+#: gravityforms.php:735
+#: select_columns.php:73
+msgid "Source Url"
+msgstr "Käll-URL"
+
+#: export.php:186
+msgid "Could not create export folder. Make sure your /wp-content/uploads folder is writable"
+msgstr "Kunde inte skapa exportkatalog. Säkerställ att /wp-content/uploads är skrivbar"
+
+#: form_detail.php:103
+msgid "Form Settings"
+msgstr "Formulärinställningar"
+
+#: form_detail.php:106
+msgid "Form Editor"
+msgstr "Formulärredigerare"
+
+#: form_detail.php:117
+msgid "Delete this Form"
+msgstr "Radera detta formulär"
+
+#: form_detail.php:117
+msgid "Would you like to delete this form and ALL entries associated with it? \\'Cancel\\' to stop. \\'OK\\' to delete"
+msgstr "Vill du radera detta formulär och ALL formulärdata? \\'Avbryt\\' för att avbryta. \\'OK\\' för att radera"
+
+#: form_detail.php:117
+msgid "Delete Form"
+msgstr "Radera formulär"
+
+#: form_detail.php:122
+msgid "Edit Form's properties"
+msgstr "Redigera formulärets egenskaper"
+
+#: form_detail.php:122
+#: form_display.php:597
+#: form_list.php:182
+#: form_list.php:185
+#: js.php:742
+msgid "Edit"
+msgstr "Redigera"
+
+#: form_detail.php:131
+#: form_detail.php:410
+msgid "Properties"
+msgstr "Egenskaper"
+
+#: form_detail.php:132
+#: form_detail.php:411
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: form_detail.php:133
+msgid "Confirmation"
+msgstr "Godkänn"
+
+#: form_detail.php:153
+msgid "Label Placement"
+msgstr "Ettikettens placering"
+
+#: form_detail.php:157
+msgid "Top aligned"
+msgstr "Toppjusterad"
+
+#: form_detail.php:158
+msgid "Left aligned"
+msgstr "Vänsterjusterad"
+
+#: form_detail.php:159
+msgid "Right aligned"
+msgstr "Högerjusterad"
+
+#: form_detail.php:167
+msgid "Form Button"
+msgstr "Formulärknapp"
+
+#: form_detail.php:171
+msgid "Default"
+msgstr "Standard"
+
+#: form_detail.php:177
+#: form_detail.php:981
+msgid "Image"
+msgstr "Bild"
+
+#: form_detail.php:183
+msgid "Text:"
+msgstr "Text:"
+
+#: form_detail.php:190
+msgid "Image Path:"
+msgstr "Bildsökväg:"
+
+#: form_detail.php:198
+#: form_detail.php:881
+#: tooltips.php:62
+msgid "CSS Class Name"
+msgstr "CSS klassnamn"
+
+#: form_detail.php:204
+msgid "Limit number of entries"
+msgstr "Begränsa antalet svar"
+
+#: form_detail.php:209
+msgid "Number of Entries"
+msgstr "Antal svar"
+
+#: form_detail.php:214
+msgid "Entry Limit Reached Message"
+msgstr "Meddelande för svarsgräns"
+
+#: form_detail.php:220
+msgid "Schedule form"
+msgstr "Schemalägg formulär"
+
+#: form_detail.php:225
+msgid "Start Date/Time"
+msgstr "Startdatum och tid"
+
+#: form_detail.php:256
+msgid "End Date/Time"
+msgstr "Slutdatum och tid"
+
+#: form_detail.php:288
+msgid "Form Expired Message"
+msgstr "Meddelande vid formuläretsutgång"
+
+#: form_detail.php:298
+msgid "Confirmation Message"
+msgstr "Bekräftelsemeddelande"
+
+#: form_detail.php:302
+msgid "Text"
+msgstr "Text"
+
+#: form_detail.php:308
+msgid "Page"
+msgstr "Sida"
+
+#: form_detail.php:314
+msgid "Redirect"
+msgstr "Omdirigering"
+
+#: form_detail.php:336
+msgid "Pass Field Data Via Query String"
+msgstr "Skicka formulärdata med Query String"
+
+#: form_detail.php:343
+msgid "Sample: phone={Phone:1}&email{Email:2}"
+msgstr "Exempel: telefon={Telefon:1}&epost{Epost:2}"
+
+#: form_detail.php:368
+msgid "Update Form"
+msgstr "Uppdatera formulär"
+
+#: form_detail.php:368
+msgid "Save Form"
+msgstr "Spara formulär"
+
+#: form_detail.php:374
+msgid "Saving form. Please wait..."
+msgstr "Sparar formuläret. Vänta.."
+
+#: form_detail.php:377
+msgid "You have successfully saved your form!"
+msgstr "Formuläret sparades!"
+
+#: form_detail.php:378
+msgid "What do you want to do next?"
+msgstr "Vad vill du göra nu?"
+
+#: form_detail.php:379
+#: form_detail.php:399
+#: form_list.php:189
+msgid "Preview this form"
+msgstr "Förhandsgranska formulär"
+
+#: form_detail.php:379
+msgid "Preview this Form"
+msgstr "Förhandsgranska formulär"
+
+#: form_detail.php:382
+#: form_detail.php:393
+msgid "Setup email notifications for this form"
+msgstr "Ställ in epostunderrättelser för detta formulär"
+
+#: form_detail.php:382
+msgid "Setup Email Notifications for this Form"
+msgstr "Ställ in epostunderrättelser för detta formulär"
+
+#: form_detail.php:385
+#: form_detail.php:392
+msgid "Continue editing this form"
+msgstr "Fortsätt redigera detta formulär"
+
+#: form_detail.php:385
+msgid "Continue Editing this Form"
+msgstr "Fortsätt redigera detta formulär"
+
+#: form_detail.php:387
+msgid "I am done. Take me back to form list"
+msgstr "Jag är klar. Ta mig tillbaka till formulärlistan"
+
+#: form_detail.php:387
+msgid "Return to Form List"
+msgstr "Tillbaka till formulärlistan"
+
+#: form_detail.php:391
+msgid "Form updated successfully."
+msgstr "Formuläret uppdaterades."
+
+#: form_detail.php:392
+msgid "Continue Editing"
+msgstr "Fortsätt redigera"
+
+#: form_detail.php:393
+msgid "Setup Email Notifications"
+msgstr "Ställ in epostunderrättelser"
+
+#: form_detail.php:396
+msgid "View this form's entries"
+msgstr "Visa formulärets svar"
+
+#: form_detail.php:396
+msgid "View Entries"
+msgstr "Visa svar"
+
+#: form_detail.php:399
+msgid "Preview Form"
+msgstr "Förhandsgranska formulär"
+
+#: form_detail.php:417
+#: tooltips.php:38
+msgid "Field Label"
+msgstr "Fältetikett"
+
+#: form_detail.php:424
+msgid "Field Type"
+msgstr "Fälttyp"
+
+#: form_detail.php:429
+msgid "Single line text"
+msgstr "Enkelradstext"
+
+#: form_detail.php:430
+#: form_detail.php:936
+msgid "Paragraph Text"
+msgstr "Styckestext"
+
+#: form_detail.php:431
+#: form_detail.php:937
+msgid "Drop Down"
+msgstr "Drop down"
+
+#: form_detail.php:432
+#: form_detail.php:938
+#: js.php:627
+msgid "Number"
+msgstr "Nummer"
+
+#: form_detail.php:433
+#: form_detail.php:940
+msgid "Multiple Choice"
+msgstr "Flerval"
+
+#: form_detail.php:434
+#: form_detail.php:942
+msgid "Hidden"
+msgstr "Dold"
+
+#: form_detail.php:436
+#: form_detail.php:949
+#: tooltips.php:74
+msgid "Advanced Fields"
+msgstr "Avancerade fält"
+
+#: form_detail.php:438
+#: form_detail.php:957
+#: js.php:643
+msgid "Time"
+msgstr "Tid"
+
+#: form_detail.php:439
+#: form_detail.php:958
+#: js.php:632
+msgid "Phone"
+msgstr "Telefonnummer"
+
+#: form_detail.php:440
+#: form_detail.php:960
+#: js.php:648
+msgid "Website"
+msgstr "Webbsida"
+
+#: form_detail.php:441
+#: form_detail.php:961
+#: js.php:621
+#: notification.php:260
+msgid "Email"
+msgstr "Epost"
+
+#: form_detail.php:447
+msgid "Theme"
+msgstr "Tema"
+
+#: form_detail.php:451
+msgid "Red"
+msgstr "Röd"
+
+#: form_detail.php:452
+msgid "White"
+msgstr "Vit"
+
+#: form_detail.php:453
+msgid "Black Glass"
+msgstr "Svart glas"
+
+#: form_detail.php:454
+msgid "Clean"
+msgstr "Ren"
+
+#: form_detail.php:459
+#: tooltips.php:40
+msgid "Custom Field Name"
+msgstr "Anpassat fältnamn"
+
+#: form_detail.php:465
+msgid "Existing"
+msgstr "Existerande"
+
+#: form_detail.php:471
+msgid "New"
+msgstr "Ny"
+
+#: form_detail.php:477
+msgid "Select an existing custom field"
+msgstr "Välj ett existerande anpassat fält"
+
+#: form_detail.php:493
+#: tooltips.php:67
+msgid "Post Status"
+msgstr "Post status"
+
+#: form_detail.php:505
+msgid "Default Post Author"
+msgstr "Standardförfattare"
+
+#: form_detail.php:511
+msgid "Use logged in user as author"
+msgstr "Använd inloggad användare som författare"
+
+#: form_detail.php:516
+#: js.php:685
+#: tooltips.php:66
+#: tooltips.php:69
+msgid "Post Category"
+msgstr "Postkategori"
+
+#: form_detail.php:524
+#: form_detail.php:980
+msgid "Category"
+msgstr "Kategori"
+
+#: form_detail.php:530
+msgid "All Categories"
+msgstr "Alla kategorier"
+
+#: form_detail.php:536
+msgid "Select Categories"
+msgstr "Välj kategorier"
+
+#: form_detail.php:553
+msgid "Image Metadata"
+msgstr "Bildens metadata"
+
+#: form_detail.php:572
+#: tooltips.php:43
+msgid "Address Type"
+msgstr "Adresstyp"
+
+#: form_detail.php:576
+#: form_detail.php:702
+msgid "International"
+msgstr "Internationell"
+
+#: form_detail.php:578
+msgid "Canadian"
+msgstr "Kanadensisk"
+
+#: form_detail.php:582
+#: tooltips.php:44
+msgid "Default State"
+msgstr "Standardstat"
+
+#: form_detail.php:592
+#: tooltips.php:45
+msgid "Default Province"
+msgstr "Standardprovins"
+
+#: form_detail.php:601
+#: tooltips.php:46
+msgid "Default Country"
+msgstr "Standardland"
+
+#: form_detail.php:611
+msgid "Hide Country Field"
+msgstr "Dölj landsfält"
+
+#: form_detail.php:620
+msgid "Hide Address Line 2 Field"
+msgstr "Dölj adressrad 2 fältet"
+
+#: form_detail.php:628
+msgid "Name Format"
+msgstr "Namnformat"
+
+#: form_detail.php:632
+msgid "Normal"
+msgstr "Normal"
+
+#: form_detail.php:633
+msgid "Extended"
+msgstr "Utökad"
+
+#: form_detail.php:634
+msgid "Simple"
+msgstr "Enkel"
+
+#: form_detail.php:640
+#: tooltips.php:42
+msgid "Date Input Type"
+msgstr "Datumtyp"
+
+#: form_detail.php:644
+msgid "Date Field"
+msgstr "Datumfält"
+
+#: form_detail.php:645
+msgid "Date Picker"
+msgstr "Datumväljare"
+
+#: form_detail.php:651
+msgid "No Icon"
+msgstr "Ingen ikon"
+
+#: form_detail.php:656
+msgid "Calendar Icon"
+msgstr "Kalenderikon"
+
+#: form_detail.php:661
+msgid "Custom Icon"
+msgstr "Anpassad ikon"
+
+#: form_detail.php:666
+msgid "Image Path: "
+msgstr "Bildsökväg:"
+
+#: form_detail.php:669
+msgid "Preview this form to see your custom icon."
+msgstr "Förhandsgranska formuläret för att se din anpassade ikon."
+
+#: form_detail.php:676
+msgid "Date Format"
+msgstr "Datumformat"
+
+#: form_detail.php:687
+msgid "Allowed file extensions"
+msgstr "Tillåtna filändelser"
+
+#: form_detail.php:691
+msgid "Separated with commas (i.e. jpg, gif, png, pdf)"
+msgstr "Separerade med komman (exempel: jpg, gif, png, pdf)"
+
+#: form_detail.php:697
+msgid "Phone Format"
+msgstr "Telefonnummerformat"
+
+#: form_detail.php:707
+msgid "Choices"
+msgstr "Val"
+
+#: form_detail.php:712
+msgid "Bulk Add / Predefined Choices"
+msgstr "Lägg till fördefinerade val"
+
+#: form_detail.php:719
+msgid "Countries"
+msgstr "Länder"
+
+#: form_detail.php:720
+msgid "U.S. States"
+msgstr "Amerikanska Staterna"
+
+#: form_detail.php:721
+msgid "Canadian Province/Territory"
+msgstr "Kanadensiska provinsen / område"
+
+#: form_detail.php:722
+msgid "Continents"
+msgstr "Kontinenter"
+
+#: form_detail.php:722
+msgid "Africa"
+msgstr "Afrika"
+
+#: form_detail.php:722
+msgid "Antarctica"
+msgstr "Antarktis"
+
+#: form_detail.php:722
+msgid "Asia"
+msgstr "Asien"
+
+#: form_detail.php:722
+msgid "Europe"
+msgstr "Europa"
+
+#: form_detail.php:722
+msgid "North America"
+msgstr "Nord Amerika"
+
+#: form_detail.php:722
+msgid "South America"
+msgstr "Syd Amerika"
+
+#: form_detail.php:723
+msgid "Gender"
+msgstr "Kön"
+
+#: form_detail.php:723
+msgid "Male"
+msgstr "Man"
+
+#: form_detail.php:723
+msgid "Female"
+msgstr "Kvinna"
+
+#: form_detail.php:723
+#: form_detail.php:724
+#: form_detail.php:726
+#: form_detail.php:729
+#: form_detail.php:730
+msgid "Prefer Not to Answer"
+msgstr "Föredrar att inte svara"
+
+#: form_detail.php:724
+msgid "Age"
+msgstr "Ålder"
+
+#: form_detail.php:724
+msgid "Under 18"
+msgstr "Under 18"
+
+#: form_detail.php:724
+msgid "18-24"
+msgstr ""
+
+#: form_detail.php:724
+msgid "25-34"
+msgstr ""
+
+#: form_detail.php:724
+msgid "35-44"
+msgstr ""
+
+#: form_detail.php:724
+msgid "45-54"
+msgstr ""
+
+#: form_detail.php:724
+msgid "55-64"
+msgstr ""
+
+#: form_detail.php:724
+msgid "65 or Above"
+msgstr "65 eller äldre"
+
+#: form_detail.php:725
+msgid "Marital Status"
+msgstr "Civilstatus"
+
+#: form_detail.php:725
+msgid "Single"
+msgstr "Singel"
+
+#: form_detail.php:725
+msgid "Married"
+msgstr "Gift"
+
+#: form_detail.php:725
+msgid "Divorced"
+msgstr "Skild"
+
+#: form_detail.php:725
+msgid "Widowed"
+msgstr "Änka"
+
+#: form_detail.php:726
+msgid "Employment"
+msgstr "Arbete"
+
+#: form_detail.php:726
+msgid "Employed Full-Time"
+msgstr "Heltidsanställd"
+
+#: form_detail.php:726
+msgid "Employed Part-Time"
+msgstr "Deltidsanställd"
+
+#: form_detail.php:726
+msgid "Self-employed"
+msgstr "Egen företagare"
+
+#: form_detail.php:726
+msgid "Not employed"
+msgstr "Arbetslös"
+
+#: form_detail.php:726
+msgid " but looking for work"
+msgstr " men söker jobb"
+
+#: form_detail.php:726
+msgid "Not employed and not looking for work"
+msgstr "Arbetslös och söker inte jobb"
+
+#: form_detail.php:726
+msgid "Homemaker"
+msgstr "Hemmafru"
+
+#: form_detail.php:726
+msgid "Retired"
+msgstr "Pensionär"
+
+#: form_detail.php:726
+msgid "Student"
+msgstr "Studerande"
+
+#: form_detail.php:727
+msgid "Job Type"
+msgstr "Anställningsform"
+
+#: form_detail.php:727
+msgid "Full-Time"
+msgstr "Heltid"
+
+#: form_detail.php:727
+msgid "Part-Time"
+msgstr "Deltid"
+
+#: form_detail.php:727
+msgid "Per Diem"
+msgstr "Timanställd"
+
+#: form_detail.php:727
+msgid "Employee"
+msgstr "Anställd"
+
+#: form_detail.php:727
+msgid "Temporary"
+msgstr "Tillfälligt"
+
+#: form_detail.php:727
+msgid "Contract"
+msgstr "Fast anställd"
+
+#: form_detail.php:727
+msgid "Intern"
+msgstr "Inre"
+
+#: form_detail.php:727
+msgid "Seasonal"
+msgstr "Säsongsarbete"
+
+#: form_detail.php:728
+msgid "Industry"
+msgstr "Industri"
+
+#: form_detail.php:728
+msgid "Accounting/Finance"
+msgstr "Ekonomi / Finans"
+
+#: form_detail.php:728
+msgid "Advertising/Public Relations"
+msgstr "Reklam / PR"
+
+#: form_detail.php:728
+msgid "Aerospace/Aviation"
+msgstr "Aerospace/ Flyg"
+
+#: form_detail.php:728
+msgid "Arts/Entertainment/Publishing"
+msgstr "Konst / Underhållning / Förlag"
+
+#: form_detail.php:728
+msgid "Automotive"
+msgstr "Bilbranchen"
+
+#: form_detail.php:728
+msgid "Banking/Mortgage"
+msgstr "Bank/"
+
+#: form_detail.php:728
+msgid "Business Development"
+msgstr "Affärsutveckling"
+
+#: form_detail.php:728
+msgid "Business Opportunity"
+msgstr "Affärsmöjlighet"
+
+#: form_detail.php:728
+msgid "Clerical/Administrative"
+msgstr "Kontorsarbete/ Administrativa"
+
+#: form_detail.php:728
+msgid "Construction/Facilities"
+msgstr "Konstruktion/ Faciliteter"
+
+#: form_detail.php:728
+msgid "Consumer Goods"
+msgstr "Konsumentvaror"
+
+#: form_detail.php:728
+msgid "Customer Service"
+msgstr "Kundservice"
+
+#: form_detail.php:728
+msgid "Education/Training"
+msgstr "Utbildning / Träning"
+
+#: form_detail.php:728
+msgid "Energy/Utilities"
+msgstr "Energibranchen"
+
+#: form_detail.php:728
+msgid "Engineering"
+msgstr "Teknik"
+
+#: form_detail.php:728
+msgid "Government/Military"
+msgstr "Myndighet / Militär"
+
+#: form_detail.php:728
+msgid "Green"
+msgstr "Grön"
+
+#: form_detail.php:728
+msgid "Healthcare"
+msgstr "Sjukvård"
+
+#: form_detail.php:728
+msgid "Hospitality/Travel"
+msgstr "Gästfrihet / Resor"
+
+#: form_detail.php:728
+msgid "Human Resources"
+msgstr " Personaladministration"
+
+#: form_detail.php:728
+msgid "Installation/Maintenance"
+msgstr "Installation / underhåll"
+
+#: form_detail.php:728
+msgid "Insurance"
+msgstr "Försäkring"
+
+#: form_detail.php:728
+msgid "Internet"
+msgstr "Internet"
+
+#: form_detail.php:728
+msgid "Job Search Aids"
+msgstr "Arbetsförmedling"
+
+#: form_detail.php:728
+msgid "Law Enforcement/Security"
+msgstr "Brottsbekämpande / Säkerhet"
+
+#: form_detail.php:728
+msgid "Legal"
+msgstr "Laglig"
+
+#: form_detail.php:728
+msgid "Management/Executive"
+msgstr "Förvaltning / Verkställande"
+
+#: form_detail.php:728
+msgid "Manufacturing/Operations"
+msgstr "Tillverkning / Verksamhet"
+
+#: form_detail.php:728
+msgid "Marketing"
+msgstr "Marknadsföring"
+
+#: form_detail.php:728
+msgid "Non-Profit/Volunteer"
+msgstr "Icke vinstdrivande / Volontär"
+
+#: form_detail.php:728
+msgid "Pharmaceutical/Biotech"
+msgstr "Läkemedel / Bioteknik"
+
+#: form_detail.php:728
+msgid "Professional Services"
+msgstr "Professional Services"
+
+#: form_detail.php:728
+msgid "QA/Quality Control"
+msgstr "QA / Kvalitetskontroll"
+
+#: form_detail.php:728
+msgid "Real Estate"
+msgstr "Fastigheter"
+
+#: form_detail.php:728
+msgid "Restaurant/Food Service"
+msgstr "Restaurang / Restaurangbranschen"
+
+#: form_detail.php:728
+msgid "Retail"
+msgstr "Detaljhandel"
+
+#: form_detail.php:728
+msgid "Sales"
+msgstr "Försäljning"
+
+#: form_detail.php:728
+msgid "Science/Research"
+msgstr "Vetenskap / Forskningsområden"
+
+#: form_detail.php:728
+msgid "Skilled Labor"
+msgstr "Kompetent arbetskraft"
+
+#: form_detail.php:728
+msgid "Technology"
+msgstr "Teknik"
+
+#: form_detail.php:728
+msgid "Telecommunications"
+msgstr "Telekommunikation"
+
+#: form_detail.php:728
+msgid "Transportation/Logistics"
+msgstr "Transport/ Logistik"
+
+#: form_detail.php:728
+#: form_detail.php:730
+msgid "Other"
+msgstr "Annat"
+
+#: form_detail.php:729
+msgid "Income"
+msgstr "Inkomst"
+
+#: form_detail.php:729
+msgid "Under $20,000"
+msgstr "Under 200,000"
+
+#: form_detail.php:729
+msgid "$20,000 - $30,000"
+msgstr "200,001 - 300,000"
+
+#: form_detail.php:729
+msgid "$30,000 - $40,000"
+msgstr "300,001 - 400,000"
+
+#: form_detail.php:729
+msgid "$40,000 - $50,000"
+msgstr "400,001 - 500,000"
+
+#: form_detail.php:729
+msgid "$50,000 - $75,000"
+msgstr "500,001 - 750,000"
+
+#: form_detail.php:729
+msgid "$75,000 - $100,000"
+msgstr "750,001 - 1,000,000"
+
+#: form_detail.php:729
+msgid "$100,000 - $150,000"
+msgstr "1,000,001 - 1,500,000"
+
+#: form_detail.php:729
+msgid "$150,000 or more"
+msgstr "150,001 eller mer"
+
+#: form_detail.php:730
+msgid "Education"
+msgstr "Utbildning"
+
+#: form_detail.php:730
+msgid "High School"
+msgstr "Högskola"
+
+#: form_detail.php:730
+msgid "Associate Degree"
+msgstr "Påbyggnadsutbildning"
+
+#: form_detail.php:730
+msgid "Bachelor's Degree"
+msgstr "Kandidatexamen"
+
+#: form_detail.php:730
+msgid "Graduate of Professional Degree"
+msgstr "Masterexamen"
+
+#: form_detail.php:730
+msgid "Some College"
+msgstr "Universitet"
+
+#: form_detail.php:731
+msgid "Days of the Week"
+msgstr "Dagar i veckan"
+
+#: form_detail.php:731
+msgid "Sunday"
+msgstr "Söndag"
+
+#: form_detail.php:731
+msgid "Monday"
+msgstr "Måndag"
+
+#: form_detail.php:731
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: form_detail.php:731
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: form_detail.php:731
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: form_detail.php:731
+msgid "Friday"
+msgstr "Fredag"
+
+#: form_detail.php:731
+msgid "Saturday"
+msgstr "Lördag"
+
+#: form_detail.php:732
+msgid "Months of the Year"
+msgstr "Årets månader"
+
+#: form_detail.php:732
+msgid "January"
+msgstr "Januari"
+
+#: form_detail.php:732
+msgid "February"
+msgstr "Februari"
+
+#: form_detail.php:732
+msgid "March"
+msgstr "Mars"
+
+#: form_detail.php:732
+msgid "April"
+msgstr "April"
+
+#: form_detail.php:732
+msgid "May"
+msgstr "Maj"
+
+#: form_detail.php:732
+msgid "June"
+msgstr "Juni"
+
+#: form_detail.php:732
+msgid "July"
+msgstr "Juli"
+
+#: form_detail.php:732
+msgid "August"
+msgstr "Augusti"
+
+#: form_detail.php:732
+msgid "September"
+msgstr "September"
+
+#: form_detail.php:732
+msgid "October"
+msgstr "Oktober"
+
+#: form_detail.php:732
+msgid "November"
+msgstr "November"
+
+#: form_detail.php:732
+msgid "December"
+msgstr "December"
+
+#: form_detail.php:733
+msgid "How Often"
+msgstr "Hur frekvent"
+
+#: form_detail.php:733
+msgid "Everyday"
+msgstr "Varje dag"
+
+#: form_detail.php:733
+msgid "Once a week"
+msgstr "En gång i veckan"
+
+#: form_detail.php:733
+msgid "2 to 3 times a week"
+msgstr "två till tre gånger i veckan"
+
+#: form_detail.php:733
+msgid "Once a month"
+msgstr "En gång i månaden"
+
+#: form_detail.php:733
+msgid " 2 to 3 times a month"
+msgstr "två till tre gånger i månaden"
+
+#: form_detail.php:733
+msgid "Less than once a month"
+msgstr "Mindre än en gång i månaden"
+
+#: form_detail.php:734
+msgid "How Long"
+msgstr "Hur länge"
+
+#: form_detail.php:734
+msgid "Less than a month"
+msgstr "Mindre än en månad"
+
+#: form_detail.php:734
+msgid "1-6 months"
+msgstr "en till sex månader"
+
+#: form_detail.php:734
+msgid "1-3 years"
+msgstr "en till tre år"
+
+#: form_detail.php:734
+msgid "Over 3 Years"
+msgstr "Mer än tre år"
+
+#: form_detail.php:734
+msgid "Never used"
+msgstr "Aldrig använd"
+
+#: form_detail.php:735
+msgid "Satisfaction"
+msgstr "Tillfredställelse"
+
+#: form_detail.php:735
+msgid "Very Satisfied"
+msgstr "Mycket tillfredställd"
+
+#: form_detail.php:735
+msgid "Satisfied"
+msgstr "Tillfredsställd"
+
+#: form_detail.php:735
+msgid "Neutral"
+msgstr "Neutral"
+
+#: form_detail.php:735
+msgid "Unsatisfied"
+msgstr "Missnöjd"
+
+#: form_detail.php:735
+msgid "Very Unsatisfied"
+msgstr "Mycket missnöjd"
+
+#: form_detail.php:736
+msgid "Importance"
+msgstr "Viktighetsgrad"
+
+#: form_detail.php:736
+msgid "Very Important"
+msgstr "Mycket viktigt"
+
+#: form_detail.php:736
+msgid "Important"
+msgstr "Viktigt"
+
+#: form_detail.php:736
+msgid "Somewhat Important"
+msgstr "Mindre viktigt"
+
+#: form_detail.php:736
+msgid "Not Important"
+msgstr "Inte viktigt"
+
+#: form_detail.php:737
+msgid "Agreement"
+msgstr "Överenskommelse"
+
+#: form_detail.php:737
+msgid "Strongly Agree"
+msgstr "Håller med mycket"
+
+#: form_detail.php:737
+msgid "Agree"
+msgstr "Håller med"
+
+#: form_detail.php:737
+msgid "Disagree"
+msgstr "Håller inte med"
+
+#: form_detail.php:737
+msgid "Strongly Disagree"
+msgstr "Håller inte alls med"
+
+#: form_detail.php:738
+msgid "Comparison"
+msgstr "Jämförelse"
+
+#: form_detail.php:738
+msgid "Much Better"
+msgstr "Mycket bättre"
+
+#: form_detail.php:738
+msgid "Somewhat Better"
+msgstr "Bättre"
+
+#: form_detail.php:738
+msgid "About the Same"
+msgstr "Nästan lika"
+
+#: form_detail.php:738
+msgid "Somewhat Worse"
+msgstr "Lite sämre"
+
+#: form_detail.php:738
+msgid "Much Worse"
+msgstr "Mycket sämre"
+
+#: form_detail.php:739
+msgid "Would You"
+msgstr "Skulle du"
+
+#: form_detail.php:739
+msgid "Definitely"
+msgstr "Absolut"
+
+#: form_detail.php:739
+msgid "Probably"
+msgstr "Kanske"
+
+#: form_detail.php:739
+msgid "Not Sure"
+msgstr "Inte säker"
+
+#: form_detail.php:739
+msgid "Probably Not"
+msgstr "Antagligen inte"
+
+#: form_detail.php:739
+msgid "Definitely Not"
+msgstr "Absolut inte"
+
+#: form_detail.php:740
+msgid "Size"
+msgstr "Storlek"
+
+#: form_detail.php:740
+msgid "Extra Small"
+msgstr "Extra small"
+
+#: form_detail.php:740
+#: form_detail.php:836
+msgid "Small"
+msgstr "Small"
+
+#: form_detail.php:740
+#: form_detail.php:837
+msgid "Medium"
+msgstr "Medium"
+
+#: form_detail.php:740
+#: form_detail.php:838
+msgid "Large"
+msgstr "Large"
+
+#: form_detail.php:740
+msgid "Extra Large"
+msgstr "Extra large"
+
+#: form_detail.php:782
+msgid "Rules"
+msgstr "Villkor"
+
+#: form_detail.php:785
+msgid "Required"
+msgstr "Obligatorisk"
+
+#: form_detail.php:791
+#: tooltips.php:55
+msgid "No Duplicates"
+msgstr "Inga dubletter"
+
+#: form_detail.php:798
+msgid "Range"
+msgstr "Område"
+
+#: form_detail.php:804
+msgid "Min"
+msgstr "Min"
+
+#: form_detail.php:811
+msgid "Max"
+msgstr "Max"
+
+#: form_detail.php:825
+#: tooltips.php:57
+msgid "Admin Label"
+msgstr "Administrationsetikett"
+
+#: form_detail.php:832
+#: tooltips.php:58
+msgid "Field Size"
+msgstr "Fältstorlek"
+
+#: form_detail.php:843
+#: form_detail.php:851
+#: tooltips.php:59
+msgid "Default Value"
+msgstr "Standardvärde"
+
+#: form_detail.php:858
+#: tooltips.php:60
+msgid "Validation Message"
+msgstr "Valideringsmeddelande"
+
+#: form_detail.php:865
+msgid "Language"
+msgstr "Språk"
+
+#: form_detail.php:869
+msgid "English"
+msgstr "Engelska"
+
+#: form_detail.php:870
+msgid "Dutch"
+msgstr "Nederländska"
+
+#: form_detail.php:871
+msgid "French"
+msgstr "Franska"
+
+#: form_detail.php:872
+msgid "German"
+msgstr "Tyska"
+
+#: form_detail.php:873
+msgid "Portuguese"
+msgstr "Portugisiska"
+
+#: form_detail.php:874
+msgid "Russian"
+msgstr "Ryska"
+
+#: form_detail.php:875
+msgid "Spanish"
+msgstr "Spanska"
+
+#: form_detail.php:876
+msgid "Turkish"
+msgstr "Turkiska"
+
+#: form_detail.php:887
+#: tooltips.php:63
+msgid "Visibility"
+msgstr "Synbarhet"
+
+#: form_detail.php:891
+msgid "Everyone"
+msgstr "Alla"
+
+#: form_detail.php:896
+msgid "Admin Only"
+msgstr "Enbart administratörer"
+
+#: form_detail.php:902
+msgid "Allow field to be populated dynamically"
+msgstr "Tillåt fält att fyllas i dynamiskt"
+
+#: form_detail.php:909
+msgid "Enable Conditional Logic"
+msgstr "Aktivera villkorslogik"
+
+#: form_detail.php:922
+msgid "Add Fields"
+msgstr "Lägg till fält"
+
+#: form_detail.php:930
+#: tooltips.php:73
+msgid "Standard Fields"
+msgstr "Standardfält"
+
+#: form_detail.php:935
+msgid "Single Line Text"
+msgstr "Enkel radtext"
+
+#: form_detail.php:939
+msgid "Checkboxes"
+msgstr "Kryssrutor"
+
+#: form_detail.php:941
+#: js.php:560
+msgid "Section Break"
+msgstr "Avsnittsbrytning"
+
+#: form_detail.php:955
+#: js.php:566
+msgid "Name"
+msgstr "Namn"
+
+#: form_detail.php:959
+#: js.php:613
+msgid "Address"
+msgstr "Adress"
+
+#: form_detail.php:962
+msgid "File Upload"
+msgstr "Filuppladdning"
+
+#: form_detail.php:970
+#: tooltips.php:75
+msgid "Post Fields"
+msgstr "Postfält"
+
+#: form_detail.php:977
+msgid "Body"
+msgstr "Body"
+
+#: form_detail.php:978
+msgid "Excerpt"
+msgstr "Utdrag"
+
+#: form_detail.php:979
+msgid "Tags"
+msgstr "Etiketter"
+
+#: form_detail.php:982
+msgid "Custom Field"
+msgstr "Anpassat fält"
+
+#: form_detail.php:1095
+msgid "Insert variable"
+msgstr "Lägg till värde"
+
+#: form_detail.php:1104
+msgid "HTTP Referer URL"
+msgstr "HTTP käll-URL"
+
+#: form_display.php:13
+msgid "Oops! We could not locate your form."
+msgstr "OOps! Vi kunde inte hitta ditt formulär."
+
+#: form_display.php:31
+msgid "Sorry. This form is no longer available."
+msgstr "Det här formuläret finns inte längre."
+
+#: form_display.php:38
+msgid "Sorry. This form is no longer accepting new submissions."
+msgstr "Det här formuläret accepterar inte flera svar."
+
+#: form_display.php:99
+msgid "There was a problem with your submission."
+msgstr "Det uppstod ett problem med ditt svar."
+
+#: form_display.php:99
+msgid "Errors have been highlighted below "
+msgstr "Felen har markerats nedanför."
+
+#: form_display.php:121
+msgid "Submit"
+msgstr "Skicka"
+
+#: form_display.php:133
+msgid "Edit this form"
+msgstr "Redigera formuläret"
+
+#: form_display.php:313
+#: form_display.php:428
+msgid "This field is required. Please enter a value."
+msgstr "Det här fältet är obligatoriskt. Fyll i ett värde."
+
+#: form_display.php:319
+msgid "This field requires an unique entry and the values you entered have been already been used"
+msgstr "Det här fältet kräver unikt data och värdet du angett har redan använts."
+
+#: form_display.php:331
+msgid "This field is required. Please enter the first and last name."
+msgstr "Det här fältet är obligatoriskt. Fyll i för- och efternamn."
+
+#: form_display.php:336
+msgid "This field requires an unique entry and '%s' has already been used"
+msgstr "Det här fältet kräver ett unikt svar och '%s' har redan använts"
+
+#: form_display.php:348
+msgid "This field is required. Please enter a complete address."
+msgstr "Det här fältet är obligatoriskt. Fyll i en adress."
+
+#: form_display.php:358
+msgid "Please enter a valid email address."
+msgstr "Ange en giltig e-postadress."
+
+#: form_display.php:418
+msgid "Please enter a valid time."
+msgstr "Ange ett giltigt datum."
+
+#: form_display.php:435
+msgid "Please enter a valid Website URL (i.e. http://www.gravityforms.com)."
+msgstr "Ange en giltig webbadress (exempel: http://www.example.com/)."
+
+#: form_display.php:453
+msgid "The reCAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr "Du angav inte korrekt reCaptcha, försök igen."
+
+#: form_display.php:466
+#, php-format
+msgid "The uploaded file type is not allowed. Must be one of the following: %s"
+msgstr "Den uppladdade filtypen är inte godkänd, använd en av följande: %s"
+
+#: form_display.php:594
+msgid "click to delete this field"
+msgstr "klicka för att ta bort det här fältet"
+
+#: form_display.php:597
+msgid "click to edit this field"
+msgstr "klicka för att redigera det här fältet"
+
+#: form_list.php:53
+#: form_list.php:98
+#: form_list.php:179
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: form_list.php:57
+#: form_list.php:97
+#: form_list.php:179
+msgid "Active"
+msgstr "Aktiv"
+
+#: form_list.php:71
+msgid "Ajax error while update form"
+msgstr "Ajax-fel när vi uppdaterade formuläret"
+
+#: form_list.php:87
+#: gravityforms.php:343
+msgid "Edit Forms"
+msgstr "Redigera formulär"
+
+#: form_list.php:88
+msgid "Add New"
+msgstr "Skapa nytt"
+
+#: form_list.php:113
+#: form_list.php:224
+#: form_list.php:263
+msgid "WARNING: You are about to delete this form and ALL entries associated with it. "
+msgstr "VARNING: Du kommer radera det här formuläret och ALLA svar som hör till det."
+
+#: form_list.php:113
+#: form_list.php:224
+#: form_list.php:263
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "\\'Avbryt\\' för at avbryta, \\'OK\\' för att radera."
+
+#: form_list.php:135
+#: form_list.php:153
+msgid "Id"
+msgstr "Id"
+
+#: form_list.php:137
+#: form_list.php:155
+msgid "Views"
+msgstr "Visningar"
+
+#: form_list.php:139
+#: form_list.php:157
+msgid "Conversion"
+msgstr "Konvertering"
+
+#: form_list.php:189
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: form_list.php:197
+msgid "View entries generated by this form"
+msgstr "Visa svar till det här formuläret"
+
+#: form_list.php:205
+msgid "Edit notifications sent by this form"
+msgstr "Redigera underrättelser som skickas av formuläret"
+
+#: form_list.php:205
+#: notification.php:234
+msgid "Notifications"
+msgstr "Underrättelser"
+
+#: form_list.php:213
+msgid "Duplicate this form"
+msgstr "Kopiera det här formuläret"
+
+#: form_list.php:213
+msgid "Duplicate"
+msgstr "Kopiera"
+
+#: forms_model.php:242
+msgid "You don't have adequate permission to delete forms."
+msgstr "Du har inte rättigheter att ta bort formulär."
+
+#: forms_model.php:300
+msgid "You don't have adequate permission to create forms."
+msgstr "Du har inte rättigheter att skapa formulär."
+
+#: forms_model.php:474
+msgid "You don't have adequate permission to delete entries."
+msgstr "Du har inte rättigheter att ta bort svar."
+
+#: forms_model.php:505
+msgid "You don't have adequate permission to add notes."
+msgstr "Du har inte rättigheter att lägga till anteckningar."
+
+#: forms_model.php:516
+msgid "You don't have adequate permission to delete notes."
+msgstr "Du har inte rättigheter att ta bort anteckningar."
+
+#: forms_model.php:545
+msgid "You don't have adequate permission to edit entries."
+msgstr "Du har inte rättigheter att redigera svar."
+
+#: gravityforms.php:340
+msgid "Forms"
+msgstr "Formulär"
+
+#: gravityforms.php:345
+msgid "New Form"
+msgstr "Skapa formulär"
+
+#: gravityforms.php:354
+#: settings.php:14
+msgid "Settings"
+msgstr "Inställningar"
+
+#: gravityforms.php:356
+msgid "Export"
+msgstr "Exportera"
+
+#: gravityforms.php:358
+msgid "Help"
+msgstr "Hjälp"
+
+#: gravityforms.php:420
+msgid "Add Gravity Form"
+msgstr "Skapa Gravity Form"
+
+#: gravityforms.php:431
+msgid "Please select a form"
+msgstr "Välj ett formulär"
+
+#: gravityforms.php:450
+msgid "Insert A Form"
+msgstr "Lägg till ett formulär"
+
+#: gravityforms.php:452
+msgid "Select a form below to add it to your post or page."
+msgstr "Välj ett formulär nedanför för att lägga till det i din post eller på din sida."
+
+#: gravityforms.php:467
+msgid "Can't find your form? Make sure it is active."
+msgstr "Kan du inte hitta ditt formulär? Kontrollera att det är aktivt."
+
+#: gravityforms.php:470
+msgid "display form title"
+msgstr "visa formulärets titel"
+
+#: gravityforms.php:471
+msgid "display form description"
+msgstr "visa formulärets beskrivning"
+
+#: gravityforms.php:498
+msgid "There is a new version of Gravity Forms available."
+msgstr "Det finns en ny version av Gravity Forms."
+
+#: gravityforms.php:498
+#, php-format
+msgid "View version %s Details"
+msgstr "Visa information om version %s"
+
+#: gravityforms.php:499
+msgid "<a href=\"admin.php?page=gf_settings\">Register</a> your copy of Gravity Forms to receive access to automatic upgrades and support. Need a license key? <a href=\"http://www.gravityforms.com\">Purchase one now</a>."
+msgstr "<a href=\"admin.php?page=gf_settings\">Registrera</a> Gravity Forms för att få automatiska uppgraderingar och support. Behöver du en produktnyckel? <a href=\"http://www.gravityforms.com\">beställ en nu</a>."
+
+#: gravityforms.php:521
+msgid "Oops!! Something went wrong.<br/>Please try again or <a href='http://www.gravityforms.com'>contact us</a>."
+msgstr "Oops!! Något gick fel.<br/>Försök igen eller <a href='http://www.gravityforms.com'>kontakta oss</a>."
+
+#: gravityforms.php:563
+msgid "View All Entries"
+msgstr "Visa alla svar"
+
+#: gravityforms.php:565
+msgid "View Unread Entries"
+msgstr "Visa olästa svar"
+
+#: help.php:13
+msgid "Gravity Forms Help"
+msgstr "Gravity Forms hjälp"
+
+#: help.php:16
+msgid "Embedding a form"
+msgstr "Bädda in ett formulär"
+
+#: help.php:17
+msgid "There are two ways to embed a form to a post or page."
+msgstr "Det finns två sätt att bädda in ditt formulär i en post eller sida."
+
+#: help.php:20
+msgid "Shortcode:"
+msgstr "Kortnummer:"
+
+#: help.php:22
+msgid "Add the following shortcode to your page or post"
+msgstr "Lägg till denna shortcode i din post eller sida"
+
+#: help.php:26
+msgid "id"
+msgstr "id"
+
+#: help.php:26
+#: help.php:36
+msgid "(Required) The id of the form to be embedded"
+msgstr "(Obligatorisk) id på formuläret du vill bädda in"
+
+#: help.php:27
+msgid "title"
+msgstr "title"
+
+#: help.php:27
+#: help.php:37
+msgid "(Optional) Whether or not do display the form title. Defaults to 'false'"
+msgstr "(Valfritt) Om du vill visa formulärtiteln eller inte. Som standard är den 'false'"
+
+#: help.php:28
+msgid "description"
+msgstr "beskrivning"
+
+#: help.php:28
+#: help.php:38
+msgid "(Optional) Whether or not do display the form description. Defaults to 'false'"
+msgstr "(Valfritt) Om du vill visa formulärets beskrivning eller inte. Som standard är den 'false'"
+
+#: help.php:34
+msgid "Add the following function call to your template"
+msgstr "Använd följande funktionsanrop för att hämta ditt formulär"
+
+#: help.php:36
+msgid "Parameter 1 (id)"
+msgstr "Parameter 1 (id)"
+
+#: help.php:37
+msgid "Parameter 2 (title)"
+msgstr "Parameter 2 (titel)"
+
+#: help.php:38
+msgid "Parameter 3(description)"
+msgstr "Parameter 3 (beskrivning)"
+
+#: help.php:45
+msgid "Action Hooks and Filters"
+msgstr "Händelsehooks och filter"
+
+#: help.php:46
+msgid "The following hooks and filters allow developers to integrate Gravity Forms with other plugins."
+msgstr "Följande hooks och filter tillåter utvecklare att integrera Gravity Forms med andra plugins."
+
+#: help.php:51
+msgid "This action hook runs during form submission after validation has taken place and before entry data has been saved"
+msgstr "Denna händelsehook körs under formulär efter kontrollen utförts och innan inträde data har sparats"
+
+#: help.php:53
+#: help.php:87
+#: help.php:113
+#: help.php:127
+msgid "Sample"
+msgstr "Exempel"
+
+#: help.php:85
+msgid "This action hook runs after entry data has been saved"
+msgstr "Denna åtgärd krok kör efter inträdet data har sparats"
+
+#: help.php:111
+msgid "Filters the form submit buton"
+msgstr "Filtrerar formulärets skicka knapp"
+
+#: help.php:125
+msgid "Same as gform_submit_button, but it only applies to the specified form"
+msgstr "Samma som gform_skicka_knappen, men det gäller bara till den angivna formen"
+
+#: js.php:272
+msgid "The form title you have entered is already taken. Please enter an unique form title"
+msgstr "Formulärtiteln du valde används redan, försök med en annan"
+
+#: js.php:358
+msgid "Ajax error while setting post template"
+msgstr "Ajax fel i inläggsmallen"
+
+#: js.php:411
+msgid "Warning! Deleting this field will also delete all entry data associated with it. \\'Cancel\\' to stop. \\'OK\\' to delete"
+msgstr "VARNING! Raderar du detta fält kommer också all data som lagrats för det raderas. \\'Avbryt\\' för att avbryta. \\'OK\\' för att radera"
+
+#: js.php:585
+#: js.php:597
+#: js.php:605
+#: js.php:703
+msgid "Untitled"
+msgstr "Ingen titel"
+
+#: js.php:588
+#: js.php:601
+#: js.php:609
+msgid "First Choice"
+msgstr "Första valet"
+
+#: js.php:588
+#: js.php:601
+#: js.php:609
+msgid "Second Choice"
+msgstr "Andra valet"
+
+#: js.php:588
+#: js.php:601
+#: js.php:609
+msgid "Third Choice"
+msgstr "Tredje valet"
+
+#: js.php:615
+msgid "State / Province"
+msgstr "Stat / Provins"
+
+#: js.php:658
+msgid "Hidden Field"
+msgstr "Dolt fält"
+
+#: js.php:662
+msgid "Post Title"
+msgstr "Postttitel"
+
+#: js.php:666
+msgid "Post Body"
+msgstr "Postbody"
+
+#: js.php:670
+msgid "Post Excerpt"
+msgstr "Postens utdrag"
+
+#: js.php:675
+msgid "Post Tags"
+msgstr "Postens etiketter"
+
+#: js.php:682
+msgid "Post Custom Field"
+msgstr "Postens anpassade fält"
+
+#: js.php:691
+msgid "Post Image"
+msgstr "Postens bild"
+
+#: js.php:698
+msgid "Captcha"
+msgstr "Captcha"
+
+#: js.php:718
+msgid "Only one reCAPTCHA field can be added to the form."
+msgstr "Du kan bara använda ett reCAPTCHA fält i formuläret."
+
+#: js.php:735
+msgid "Ajax error while adding field"
+msgstr "Ajaxfel när fältet skulle läggas till"
+
+#: js.php:747
+msgid "Close"
+msgstr "Stäng"
+
+#: js.php:806
+msgid "Ajax error while changing input type"
+msgstr "Ajaxfel när intypen skulle ändras"
+
+#: js.php:985
+msgid "To use conditional logic, please create a drop down, checkbox or multiple choice field."
+msgstr "För att använda villkorslogik behöver du skapa en drop down, kryssruta eller flervalsfält."
+
+#: js.php:1038
+msgid "Show"
+msgstr "Visa"
+
+#: js.php:1038
+msgid "Hide"
+msgstr "Dölj"
+
+#: js.php:1039
+msgid "this field if"
+msgstr "detta fält om"
+
+#: js.php:1040
+msgid "Any"
+msgstr "Någon"
+
+#: js.php:1041
+msgid "of the following match:"
+msgstr " av följande matchas:"
+
+#: js.php:1048
+#: notification.php:104
+#: notification.php:305
+msgid "is"
+msgstr "är"
+
+#: js.php:1048
+#: notification.php:104
+#: notification.php:306
+msgid "is not"
+msgstr "är inte"
+
+#: js.php:1153
+msgid "Parameter Name:"
+msgstr "Parameternamn:"
+
+#: js.php:1487
+msgid "Select a field"
+msgstr "Välj ett fält"
+
+#: js.php:1487
+msgid "User IP Address"
+msgstr "Användarens IP-adress"
+
+#: notification.php:102
+#: notification.php:302
+msgid "Send to"
+msgstr "Skicka till"
+
+#: notification.php:103
+#: notification.php:303
+msgid "if"
+msgstr "om"
+
+#: notification.php:237
+msgid "Notification to Administrator"
+msgstr "Underrätta administratören"
+
+#: notification.php:242
+msgid "Enable email notification to administrators"
+msgstr "Aktivera underrättelser till administratörer"
+
+#: notification.php:245
+msgid "Enter a message below to receive a notification email when users submit this form."
+msgstr "Ange ett meddelande nedanför som skall skickas med epost när användare svarar på detta formulär."
+
+#: notification.php:254
+msgid "Send To Email"
+msgstr "Skicka till epost"
+
+#: notification.php:265
+#: tooltips.php:17
+msgid "Routing"
+msgstr "Routing"
+
+#: notification.php:273
+msgid "Please enter a valid email address"
+msgstr "Ange en giltig epostadress"
+
+#: notification.php:284
+msgid "To use notification routing, your form must have a drop down, checkbox or multiple choice field."
+msgstr "För att använda anmälan routing, måste formuläret ha en drop-down, kryssruta eller flervalsfrågefält."
+
+#: notification.php:320
+msgid "Please enter a valid email address for all highlighted routing rules above."
+msgstr "Ange en giltig e-postadress för alla markerade routing regler ovan."
+
+#: notification.php:332
+#: notification.php:483
+msgid "From Email"
+msgstr "Från epost"
+
+#: notification.php:339
+#: notification.php:365
+msgid "OR"
+msgstr "ELLER"
+
+#: notification.php:341
+#: notification.php:367
+msgid "Select an email field"
+msgstr "Välj ett epostfält"
+
+#: notification.php:358
+#: tooltips.php:19
+msgid "Reply To"
+msgstr "Svara till"
+
+#: notification.php:383
+#: notification.php:476
+msgid "BCC"
+msgstr "Dold kopia"
+
+#: notification.php:395
+#: notification.php:502
+msgid "Subject"
+msgstr "Ämne"
+
+#: notification.php:403
+msgid "Please enter a subject for the notification email"
+msgstr "Ange ett ämne för underrättelsemailet"
+
+#: notification.php:414
+#: notification.php:521
+msgid "Message"
+msgstr "Meddelande"
+
+#: notification.php:422
+msgid "Please enter a message for the notification email"
+msgstr "Ange ett meddelande för underrättelsemailet"
+
+#: notification.php:434
+msgid "Notification to User"
+msgstr "Underättelse till användaren"
+
+#: notification.php:452
+msgid "Enable email notification to users"
+msgstr "Aktivera underrättelser till användare"
+
+#: notification.php:456
+msgid "Enter a message below to send users an automatic response when they submit this form."
+msgstr "Ange ett meddelande nedanför som skickas med automatik till användare när de svarar på detta formulär."
+
+#: notification.php:460
+msgid "Send To Field"
+msgstr "Skicka till-fält"
+
+#: notification.php:490
+msgid "Reply To (optional)"
+msgstr "Svara till (valfritt)"
+
+#: notification.php:510
+msgid "Please enter a subject for the user notification email"
+msgstr "Ange ett ämne för underrättelsemailet"
+
+#: notification.php:529
+msgid "Please enter a message for the user notification email"
+msgstr "Ange ett meddelande som skickas i underrättelsemailet till användare"
+
+#: notification.php:546
+#: settings.php:248
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: notification.php:559
+msgid "Notification Updated."
+msgstr "Underrättelse uppdaterad."
+
+#: notification.php:566
+msgid "Notification could not be updated. Please enter all required information below."
+msgstr "Underrättelsen kan inte uppdateras. Ange all obligatorisk information nedanför."
+
+#: preview.php:9
+msgid "You don't have adequate permission to preview forms."
+msgstr "Du har inte behörighet att förhandsgranska formulär."
+
+#: preview.php:18
+#: preview.php:24
+msgid "Form Preview"
+msgstr "Förhandsgranska formulär"
+
+#: preview.php:24
+#: print-entry.php:37
+msgid "close window"
+msgstr "stäng fönster"
+
+#: print-entry.php:9
+msgid "You don't have adequate permission to view entries."
+msgstr "Du har inte behörighet att visa svar."
+
+#: print-entry.php:15
+msgid "Form Id and Lead Id are required parameters."
+msgstr "Form id och Lead id är obligatoriska parametrar."
+
+#: select_columns.php:6
+msgid "Oops! We could not locate your form. Please try again."
+msgstr "Oops! Vi kunde inte hitta ditt formulär. Försök igen."
+
+#: select_columns.php:79
+msgid "Active Columns"
+msgstr "Aktiva kolumner"
+
+#: select_columns.php:94
+msgid "Inactive Columns"
+msgstr "Inaktiva kolumner"
+
+#: select_columns.php:119
+msgid "Save"
+msgstr "Spara"
+
+#: settings.php:14
+msgid "Gravity Forms Settings"
+msgstr "Inställningar för Gravity Forms"
+
+#: settings.php:63
+msgid "You don't have adequate permission to edit settings."
+msgstr "Du har inte behörighet att redigera inställningar."
+
+#: settings.php:76
+msgid "You don't have adequate permission to uninstall Gravity Forms."
+msgstr "Du har inte behörighet att avinstallera Gravity Forms."
+
+#: settings.php:107
+msgid "Support License Key"
+msgstr "Produktnyckel för support"
+
+#: settings.php:114
+msgid "The license key is used for access to automatic upgrades and support."
+msgstr "Produktnyckeln används för åtkomst av automatiska uppgraderingar och support."
+
+#: settings.php:118
+#: tooltips.php:80
+msgid "Output CSS"
+msgstr "Utgång CSS"
+
+#: settings.php:120
+msgid "Yes"
+msgstr "Ja"
+
+#: settings.php:121
+msgid "No"
+msgstr "Nej"
+
+#: settings.php:122
+msgid "Set this to No if you would like to disable the plugin from outputting the form CSS."
+msgstr "Välj Nej om du vill inaktivera att pluginen ska använda CSS för formulär."
+
+#: settings.php:129
+msgid "reCAPTCHA Settings"
+msgstr "Inställningar för reCAPTCHA"
+
+#: settings.php:131
+msgid "Gravity Forms integrates with reCAPTCHA, a free CAPTCHA service that helps to digitize books while protecting your forms from spam bots. "
+msgstr "Gravity Forms använder reCAPTCHA, en gratis CAPTCHA tjänst som hjälper till att digitalisera böcker samtidigt som den skyddar dina formulär för spamrobotar."
+
+#: settings.php:131
+msgid "Read more about reCAPTCHA"
+msgstr "Läs mer om reCAPTCHA"
+
+#: settings.php:137
+msgid "reCAPTCHA Public Key"
+msgstr "publik nyckel för reCAPTCHA"
+
+#: settings.php:140
+#: settings.php:147
+msgid "Required only if you decide to use the reCAPTCHA field."
+msgstr "Behövs bara om du väljer att använda reCAPTCHA fältet."
+
+#: settings.php:144
+msgid "reCAPTCHA Private Key"
+msgstr "Privat nyckel för reCAPTCHA"
+
+#: settings.php:155
+msgid "Installation Status"
+msgstr "Installationsstatus"
+
+#: settings.php:159
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: settings.php:173
+msgid "Gravity Forms requires PHP 5 or above."
+msgstr "Gravity Forms kräver PHP 5 eller högre."
+
+#: settings.php:180
+msgid "MySQL Version"
+msgstr "MySQL version"
+
+#: settings.php:194
+msgid "Gravity Forms requires MySQL 5 or above."
+msgstr "Gravity Forms kräver MySQL 5 eller högre."
+
+#: settings.php:201
+msgid "WordPress Version"
+msgstr "WordPress version"
+
+#: settings.php:215
+msgid "Gravity Forms requires WordPress 2.8 or above."
+msgstr "Gravity Forms kräver WordPress 2.8 eller högre."
+
+#: settings.php:222
+msgid "Gravity Forms Version"
+msgstr "Gravity Forms version"
+
+#: settings.php:259
+#: settings.php:262
+msgid "Uninstall Gravity Forms"
+msgstr "Avinstallera Gravity Forms"
+
+#: settings.php:260
+msgid "Warning! This operation deletes ALL Gravity Forms data."
+msgstr "VARNING! Detta raderar ALL Gravity Forms data."
+
+#: settings.php:262
+msgid "Warning! ALL Gravity Forms data will be deleted, including entries. This cannot be undone. \\'OK\\' to delete, \\'Cancel\\' to stop"
+msgstr "VARNING! ALL data som lagrats av Gravity Forms kommer raderas, inklusive svar. Detta kan inte ångras. \\'OK\\' för att radera, \\'Avbryt\\' för att avbryta"
+
+#: settings.php:275
+msgid "Settings Updated"
+msgstr "Inställningarna uppdaterades"
+
+#: tooltips.php:16
+msgid "Send To Email Address"
+msgstr "Skicka till epostadress"
+
+#: tooltips.php:16
+msgid "Enter the email address you would like the administrator notification email sent to."
+msgstr "Ange den e-postadress du vill att administratörs anmälan ska skickas till."
+
+#: tooltips.php:17
+msgid "Allows notification to be sent do different email addresses depending on values selected in the form."
+msgstr "Låter underrättelsen skickas till olika e-postadresser beroende på vilka värden som har valts i formuläret."
+
+#: tooltips.php:18
+#: tooltips.php:23
+msgid "From Email Address"
+msgstr "Från Email Adress"
+
+#: tooltips.php:18
+msgid "Enter the email address you would like the administrator notification email sent from, or select the email from available email form fields."
+msgstr "Ange den e-postadress du vill att administratörs anmälan ska skickas från, eller välj en ledig adress från e-post formulärfältet."
+
+#: tooltips.php:19
+msgid "Enter the email address you would like to be used as the reply to address for the administrator notification email."
+msgstr "Ange den e-postadress som du vill ska användas som svar på adressen för underrättelse till administratörens e-post."
+
+#: tooltips.php:20
+#: tooltips.php:21
+#: tooltips.php:22
+msgid "Blind Carbon Copy Addresses"
+msgstr "Dold kopia adress"
+
+#: tooltips.php:20
+msgid "Enter a comma separated list of email addresses you would like to receive a BCC of the administrator notification email."
+msgstr "Ange en kommaseparerad lista över e-postadresser du vill ha ett BCC av administratörens underrättelse e-post."
+
+#: tooltips.php:21
+msgid "Select the email form field that the user notification email should be sent to."
+msgstr "Välj epost-formulärfält som användarens underrättelse meddelande ska skickas till."
+
+#: tooltips.php:22
+msgid "Enter a comma separated list of email addresses you would like to receive a BCC of the user notification email."
+msgstr "Ange en kommaseparerad lista över e-postadresser du vill ha ett BCC av användarens underrättelse e-post."
+
+#: tooltips.php:23
+msgid "Enter the email address you would like the user notification email sent from."
+msgstr "Ange den e-postadress du vill att e-postanvändare underrättelse skickas från."
+
+#: tooltips.php:24
+msgid "Reply To Address"
+msgstr "Svara på adress"
+
+#: tooltips.php:24
+msgid "Enter the email address you would like to be used as the reply to address for the user notification email."
+msgstr "Ange den e-postadress som du vill ska användas som svar på adressen för användarens underrättelse e-post."
+
+#: tooltips.php:25
+msgid "Limit Form Activity"
+msgstr "Begränsa formulär aktivitet"
+
+#: tooltips.php:25
+msgid "Limit the number of entries a form can generate and/or schedule a time period the form is active."
+msgstr "Begränsa antalet poster ett formulär kan generera och / eller schemalägga en tidsperiod då formuläret är aktivt."
+
+#: tooltips.php:26
+msgid "Limit Number of Entries"
+msgstr "Begränsa antalet svar"
+
+#: tooltips.php:26
+msgid "Enter a number in the input box below to limit the number of entries allowed for this form. The form will become inactive when that number is reached."
+msgstr "Skriv in ett nummer i input rutan nedan för att begränsa antalet poster som är tillåtet i formuläret. Formuläret kommer att bli inaktivt när det antalet har uppnåtts."
+
+#: tooltips.php:27
+msgid "Schedule Form"
+msgstr "Schema formulär"
+
+#: tooltips.php:27
+msgid "Schedule a time period the form is active."
+msgstr "Schemalägg en tidsperiod som formuläret är aktivt."
+
+#: tooltips.php:28
+msgid "Enter the title of your form."
+msgstr "Ange rubriken på ditt formulär."
+
+#: tooltips.php:29
+msgid "Form Description"
+msgstr "Formulär beskrivning"
+
+#: tooltips.php:29
+msgid "Enter a description for your form. This may be used for user instructions."
+msgstr "Ange en beskrivning för formuläret. Detta kan användas som instruktioner för användaren."
+
+#: tooltips.php:30
+msgid "Form Label Placement"
+msgstr "Placering av formulärsetiketten"
+
+#: tooltips.php:30
+msgid "Select the label placement.  Labels can be top aligned above a field, left aligned to the left of a field, or right aligned to the left of a field."
+msgstr "Välj etikettens placering. Etiketter kan vara topp anpassad över ett fält, vänsterställt till vänster om ett fält eller högerställt till vänster om ett fält."
+
+#: tooltips.php:31
+msgid "Form Button Text"
+msgstr "Text på formulärknappen"
+
+#: tooltips.php:31
+msgid "Enter the text you would like to appear on the form submit button."
+msgstr "Ange den text du vill ska visas på skicka-knappen i formuläret ."
+
+#: tooltips.php:32
+msgid "Form Button Image"
+msgstr "Bild på formulärknappen"
+
+#: tooltips.php:32
+msgid "Enter the path to an image you would like to use as the form submit button."
+msgstr "Ange sökvägen till den bild som du vill använda som skicka-knapp till formuläret."
+
+#: tooltips.php:33
+msgid "Form CSS Class Name"
+msgstr "Formulärets CSS klassnamn"
+
+#: tooltips.php:33
+msgid "Enter the CSS class name you would like to use in order to override the default styles for this form."
+msgstr "Ange vilken CSS-klass du vill använda istället för standard-CSSen för detta formulär."
+
+#: tooltips.php:34
+msgid "Confirmation Message Text"
+msgstr "Bekräftelse Meddelandetext"
+
+#: tooltips.php:34
+msgid "Enter the text you would like the user to see on the confirmation page of this form."
+msgstr "Skriv in texten du vill att användaren kan se på bekräftelsesidan i detta formulär."
+
+#: tooltips.php:35
+msgid "Redirect Form to Page"
+msgstr "Omdirigera Formulär till sida"
+
+#: tooltips.php:35
+msgid "Select the page you would like the user to be redirected to after they have submitted the form."
+msgstr "Markera den sida du vill att användaren ska omdirigeras till efter att de har skickat formuläret."
+
+#: tooltips.php:36
+msgid "Redirect Form to URL"
+msgstr "Omdirigera formulär till URL"
+
+#: tooltips.php:36
+msgid "Enter the URL of the webpage you would like the user to be redirected to after they have submitted the form."
+msgstr "Ange webbadressen för den webbsida som du vill att användaren ska omdirigeras till efter att de har skickat formuläret."
+
+#: tooltips.php:37
+msgid "Pass Data Via Query String"
+msgstr "Skicka data med Query String"
+
+#: tooltips.php:37
+msgid "To pass field data to the confirmation page, build a Query String using the 'Insert form field' drop down. <a href='http://en.wikipedia.org/wiki/Query_string' target='_blank'>..more info on querystrings &raquo;</a>"
+msgstr "För godkänt fältdata till bekräftelsesidan, skapa en Query String med hjälp av \"Infoga formulärfält\" drop down. <a href='http://en.wikipedia.org/wiki/Query_string' target='_blank'> .. Mer information om querystrings &raquo;</ a>"
+
+#: tooltips.php:38
+msgid "Enter the label of the form field.  This is the field title the user will see when filling out the form."
+msgstr "Ange en etikett för formulärfältet. Det är den etiketten användaren som fyller i formuläret kommer se."
+
+#: tooltips.php:39
+msgid "Recaptcha Theme"
+msgstr "Recaptcha Tema"
+
+#: tooltips.php:39
+msgid "Select the visual theme for the reCAPTCHA field the available options to better match your site design."
+msgstr "Välj det visuella temat för reCAPTCHA fältet tillgängliga alternativ för att bättre matcha din webbdesign."
+
+#: tooltips.php:40
+msgid "Select the custom field name from available existing custom fields, or enter a new custom field name."
+msgstr "Välj det anpassade fältnamn från tillgängliga befintliga anpassade fält, eller ange ett nytt anpassat fält namn."
+
+#: tooltips.php:41
+msgid "Field type"
+msgstr "Fälttyp"
+
+#: tooltips.php:41
+msgid "Select the type of field from the available form fields."
+msgstr "Välj vilken typ av fält från de tillgängliga formulärfälten."
+
+#: tooltips.php:42
+msgid "Select the type of inputs you would like to use for the date field. Date Picker will let users select a date from a calendar. Date Field will let users free type the date."
+msgstr "Välj den typ av inputs som du vill använda för datumfältet. Datumväljare låter användare välja ett datum från en kalender. Datumfältet låter användarna fritt skriv in datumet."
+
+#: tooltips.php:43
+msgid "Select the type of address you would like to use."
+msgstr "Välj vilken adress du vill använda."
+
+#: tooltips.php:44
+msgid "Select the state you would like to be selected by default when the form gets displayed."
+msgstr "Välj den stat du vill ska väljas som standard när formuläret visas."
+
+#: tooltips.php:45
+msgid "Select the province you would like to be selected by default when the form gets displayed."
+msgstr "Välj den provins du vill ska väljas som standard när formuläret visas."
+
+#: tooltips.php:46
+msgid "Select the country you would like to be selected by default when the form gets displayed."
+msgstr "Välj det land du vill ska väljas som standard när formuläret visas."
+
+#: tooltips.php:47
+msgid "Hide Country"
+msgstr "Dölj land"
+
+#: tooltips.php:47
+msgid "For addresses that only apply to one country, you can choose to not display the country drop down. Entries will still be recorded with the selected country."
+msgstr "För adresser som bara gäller ett land, kan du välja att inte visa landet i drop down. Svaren kommer fortfarande in med det valda landet."
+
+#: tooltips.php:48
+msgid "Hide Address Line 2"
+msgstr "Dölj adresslinje 2"
+
+#: tooltips.php:48
+msgid "Check this box to prevent the extra address input (Address Line 2) from being displayed in the form."
+msgstr "Markera den här rutan för att förhindra att en extra adress (Adress linje 2) visas i formuläret."
+
+#: tooltips.php:49
+msgid "Field Name Format"
+msgstr "Format för fältnamn"
+
+#: tooltips.php:49
+msgid "Select the format you would like to use for the Name field.  There are 3 options, Normal which includes First and Last Name, Extended which adds Prefix and Suffix, or Simple which is a single input field."
+msgstr "Välj det format du vill använda för fältet Namn. Det finns 3 alternativ, Normal som inkluderar För och Efternamn, Utökad som lägger till prefix och suffix, eller Enkel som är ett enda sökfält."
+
+#: tooltips.php:50
+msgid "Field Date Format"
+msgstr "Format för datumfält"
+
+#: tooltips.php:50
+msgid "Select the format you would like to use for the date input.  Available options are MM/DD/YYYY and DD/MM/YYYY."
+msgstr "Välj det format du vill använda för datum. Tillgängliga alternativ är MM / DD / ÅÅÅÅ och DD / MM / ÅÅÅÅ."
+
+#: tooltips.php:51
+msgid "Allowed File Extensions"
+msgstr "Tillåtna filändelser"
+
+#: tooltips.php:51
+msgid "Enter that allowed file extensions for file uploads.  This will limit what type of files a user may upload."
+msgstr "Ange tillåtna filändelser för filuppladdningar. Det här kommer begränsa vilka filtyper användaren kan ladda upp."
+
+#: tooltips.php:52
+msgid "Phone Number Format"
+msgstr "Format för telefonnummer"
+
+#: tooltips.php:52
+msgid "Select the format you would like to use for the phone input.  Available options are domestic US/CANADA style phone number and international long format phone number."
+msgstr "Välj det format du vill använda för telefon anslutning. Tillgängliga alternativ är inhemska USA/ Kanada telefonnummer och internationella telefonnummer."
+
+#: tooltips.php:53
+msgid "Field Description"
+msgstr "Fältbeskrivning"
+
+#: tooltips.php:53
+msgid "Enter the description for the form field.  This will be displayed to the user and provide some direction on how the field should be filled out or selected."
+msgstr "Ange en beskrivning för formulärfältet. Beskrivningen kommer visas för användaren och vara till hjälp för hur fältet skall fyllas i eller väljas."
+
+#: tooltips.php:54
+msgid "Required Field"
+msgstr "Obligatoriskt fält"
+
+#: tooltips.php:54
+msgid "Select this option to make the form field required.  A required field will prevent the form from being submitted if it is not filled out or selected."
+msgstr "Välj detta för att göra ett fält obligatoriskt. Ett obligatoriskt fält hindrar formuläret från att skickas om det inte är ifyllt eller valt."
+
+#: tooltips.php:55
+msgid "Select this option to limit user input to unique values only.  This will require that a value entered in a field does not currently exist in the entry database for that field."
+msgstr "Välj det här alternativet för att begränsa användarens inmatningar till unika värden. Detta kräver att ett värde som anges i ett fält finns för närvarande inte i posten databas för fältet."
+
+#: tooltips.php:56
+msgid "Number Range"
+msgstr "Nummer register"
+
+#: tooltips.php:56
+msgid "Enter the minimum and maximum values for this form field.  This will require that the value entered by the user must fall within this range."
+msgstr "Ange lägsta och högsta värden för deta formulär fält. Detta kommer att kräva att värdet som anges av användaren måste falla inom detta intervall."
+
+#: tooltips.php:57
+msgid "Enter the admin label of the form field.  Entering a value in this field will override the Field Label when displayed in the Gravity Forms administration tool."
+msgstr "Ange en administrationsetikett för formulärfältet. Värdet kommer visas istället för Fältetikett i Gravity Forms adminstrationsgränssnitt."
+
+#: tooltips.php:58
+msgid "Select a form field size from the available options.  This will set the width of the field."
+msgstr "Välj en storlek på formulärfältet från tillgängliga alternativen. Detta ställer in bredden på fältet."
+
+#: tooltips.php:59
+msgid "If you would like to pre-populate the value of a field, enter it here."
+msgstr "Om du vill ha ett förifyllt värde för ett fält, ange det här."
+
+#: tooltips.php:60
+msgid "If you would like to override the default error validation for a field, enter it here.  This message will be displayed if there is an error with this field when the user submits the form."
+msgstr "Om du vill ange ett eget felmeddelande istället för standardmeddelandet vid fel i fält skall du ange det här. Ditt felmeddelande visas om det finns fel med fältet när användaren skickar formuläret."
+
+#: tooltips.php:61
+msgid "reCaptcha Language"
+msgstr "reCaptcha Språk"
+
+#: tooltips.php:61
+msgid "Select the language you would like to use for the reCAPTCHA display from the available options."
+msgstr "Välj det språk du vill använda för reCAPTCHA visning av de tillgängliga alternativen."
+
+#: tooltips.php:62
+msgid "Enter the CSS class name you would like to use in order to override the default styles for this field."
+msgstr "Ange CSS klass namn du vill använda för att åsidosätta standardinställningen formatmallar för detta fält."
+
+#: tooltips.php:63
+msgid "Select the visibility for this field. Field visibility set to Everyone will be visible by the user submitting the form. Form field visibility set to Admin Only will only be visible within the Gravity Forms administration tool.<br /><br />Setting a field to Admin Only is useful for creating fields that can be used to set a status or priority level on submitted entries."
+msgstr "Ange synbarheten för detta fält. Om du sätter Alla här kommer alla se fältet. Om du använder Enbart administratörer kommer fältet enbart visas i Gravity Forms administrationsgränssnitt.<br /><br />Att sätta fältets synbarhet till Enbart administratörer är användbart för att sätta status eller prioritet på inskickade svar. "
+
+#: tooltips.php:64
+msgid "Field Choices"
+msgstr "Fältval"
+
+#: tooltips.php:64
+msgid "Add Choices to this field. You can mark each choice as checked by default by using the radio/checkbox fields on the left."
+msgstr "Lägg till val för detta fält. Du kan markera varje fält som förvalt genom att använda radio/kryssrutorna till vänster."
+
+#: tooltips.php:65
+msgid "Conditional Logic"
+msgstr "Villkorslogik"
+
+#: tooltips.php:65
+msgid "Create rules to dynamically display or hide this field based on values from another field"
+msgstr "Skapa villkor för att dynamiskt visa eller dölja detta fält baserat på värden från andra fält"
+
+#: tooltips.php:66
+msgid "Select which categories are displayed. You can choose to display all of them or select individual ones."
+msgstr "Välj vilka kategorier som visas. Du kan välja att visa alla eller välja enskilda sådana."
+
+#: tooltips.php:67
+msgid "Select the post status that will be used for the post that is created by the form entry."
+msgstr "Välj den post status som kommer att användas för tjänsten som skapades av formuläret."
+
+#: tooltips.php:68
+msgid "Post Author"
+msgstr "Inläggets Författare"
+
+#: tooltips.php:68
+msgid "Select the author that will be used for the post that is created by the form entry."
+msgstr "Välj författaren som kommer att användas för tjänsten som skapades av formuläret."
+
+#: tooltips.php:69
+msgid "Select the category that will be used for the post that is created by the form entry."
+msgstr "Välj den kategori som kommer att användas för posten som skapas från formulärssvaret."
+
+#: tooltips.php:70
+msgid "Use Current User as Author"
+msgstr "Använd Aktuell Användare som Författare"
+
+#: tooltips.php:70
+msgid "Selecting this option will set the post author to the WordPress user that submitted the form."
+msgstr "Detta alternativ kommer  in efter författaren till WordPress användare som skickat formuläret."
+
+#: tooltips.php:71
+msgid "Image Meta"
+msgstr "Bild Meta"
+
+#: tooltips.php:71
+msgid "Select one or more image metadata field to be displayed along with the image upload field. They enable users to enter additional information about the uploaded image."
+msgstr "Välj en eller flera bilder metadata fält som ska visas tillsammans med bilden i uppladdingsfältet. De gör det möjligt för användare att ange ytterligare information om den uppladdade bilden."
+
+#: tooltips.php:72
+msgid "Incoming Field Data"
+msgstr "Inskickad fältdata"
+
+#: tooltips.php:72
+msgid "Check this option to enable data to be passed to the form and pre-populate this field dynamically. Data can be passed via Query Strings, Shortcode and/or Hooks"
+msgstr "Markera detta val för att göra att möjliggöra att data skickas till formuläret och populerar fältet dynamiskt. Data kan skickas med Query Strings, shortcode och/eller Hooks"
+
+#: tooltips.php:73
+msgid "Standard Fields provide basic form functionality. Use them to create a wide variety of flexible fields."
+msgstr "Standard Fält ger grundläggande formulär funktionalitet. Använd dem för att skapa ett brett utbud av flexibla fält."
+
+#: tooltips.php:74
+msgid "Advanced Fields are for specific uses.  They enable advanced formatting of regularly used fields such as Name, Email, Address, etc."
+msgstr "Avancerade Fält för särskilda användningsområden. De möjliggör avancerad formatering för regelbundet använda fält som Namn, Email, Adress, etc."
+
+#: tooltips.php:75
+msgid "Post Fields allow you to add fields to your form that create Post Drafts in WordPress from the submitted data."
+msgstr "Post Fält kan du lägga till fält i formuläret som skapar Post Utkast i WordPress från de uppgifter som lämnats."
+
+#: tooltips.php:76
+msgid "Export Selected Form"
+msgstr "Exportera Valt Formulär"
+
+#: tooltips.php:76
+msgid "Select the form you would like to export entry data from. You may only export data from one form at a time."
+msgstr "Välj det formulär du vill exportera post data ifrån. Du kan bara exportera data från ett formulär i taget."
+
+#: tooltips.php:77
+msgid "Export Selected Fields"
+msgstr "Exportera Markerade Fält"
+
+#: tooltips.php:77
+msgid "Select the fields from the select form you would like to export data from."
+msgstr "Välj fält från formuläret som du vill exportera data från."
+
+#: tooltips.php:78
+msgid "Export Date Range"
+msgstr "Exportera Datumintervall"
+
+#: tooltips.php:78
+msgid "Select a date range. Setting a range will only export entries submitted during that date range. If no range is set, all entries will be exported."
+msgstr "Välj ett datumintervall. Att sätta ett intervall kommer bara exportera svar som skickats in under det datumintervallet. Om ingen rad är inställt, kommer alla poster att exporteras."
+
+#: tooltips.php:79
+msgid "Settings License Key"
+msgstr "Inställningar Licens Nyckel"
+
+#: tooltips.php:79
+msgid "Your Gravity Forms support license key is used to verify your support package, enable automatic updates and receive support."
+msgstr "Din Gravity Forms licens nyckel används för att verifiera dina stödpaket, aktivera automatiska uppdateringar och få stöd."
+
+#: tooltips.php:80
+msgid "Select yes or no to enable or disable CSS output.  Setting this to no will disable the standard Gravity Forms CSS from being included in your theme."
+msgstr "Välj ja eller nej för att aktivera eller inaktivera CSS utgång. Sätta den till nej kommer att stänga den standard Gravity Forms CSS från att inkluderas i ditt tema."
+
+#: tooltips.php:81
+msgid "reCaptcha Public Key"
+msgstr "Publik nyckel för reCAPTCHA"
+
+#: tooltips.php:81
+msgid "Enter your reCAPTCHA Public Key, if you do not have a key you can register for one at the provided link.  reCAPTCHA is a free service."
+msgstr "Ange ditt reCAPTCHA Public Key, om du inte har en nyckel kan du registrera dig för ett på den medföljande länken. reCAPTCHA  är en kostnadsfri tjänst."
+
+#: tooltips.php:82
+msgid "reCaptcha Private Key"
+msgstr "Privat Nyckel för reCAPTCHA"
+
+#: tooltips.php:82
+msgid "Enter your reCAPTCHA Private Key, if you do not have a key you can register for one at the provided link.  reCAPTCHA is a free service."
+msgstr "Ange ditt reCAPTCHA Private Key, om du inte har en nyckel kan du registrera dig för ett på den medföljande länken. ReCAPTCHA är en kostnadsfri tjänst."
+
+#: tooltips.php:83
+msgid "Entries Conversion"
+msgstr "Svarskonvertering"
+
+#: tooltips.php:83
+msgid "Conversion is the percentage of form views that generated an entry. If a form was viewed twice, and one entry was generated, the conversion will be 50%."
+msgstr "Konverteringen är en procentuell visning av ett formulär som genererade ett svar. Om ett formulär visades två gånger, och en post skapades, kommer omvandlingen vara 50%."
+
