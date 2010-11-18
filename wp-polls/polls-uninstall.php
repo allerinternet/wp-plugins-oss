@@ -18,7 +18,7 @@
 
 
 ### Check Whether User Can Manage Polls
-if(!current_user_can('manage_polls')) {
+if(!current_user_can('uninstall_polls')) {
 	die('Access Denied');
 }
 

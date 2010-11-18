@@ -1614,7 +1614,13 @@ function create_poll_table() {
 	$role = get_role('administrator');
 	if(!$role->has_cap('manage_polls')) {
 		$role->add_cap('manage_polls');
+		$role->add_cap('uninstall_polls');
 	}
+	$role = get_role('editor');
+	if (!$role->has_cap('manage_polls')) {
+	  $role->add_cap('manage_polls');
+	}
+
 	cron_polls_place();
 }
 ?>
