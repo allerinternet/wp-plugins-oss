@@ -1,0 +1,59 @@
+diff -crB wp-polls/polls-uninstall.php wp-polls.new/polls-uninstall.php
+*** wp-polls/polls-uninstall.php	2010-11-18 12:15:01.000000000 +0100
+--- wp-polls.new/polls-uninstall.php	2010-11-18 09:19:59.000000000 +0100
+***************
+*** 18,24 ****
+  
+  
+  ### Check Whether User Can Manage Polls
+! if(!current_user_can('manage_polls')) {
+  	die('Access Denied');
+  }
+  
+--- 18,24 ----
+  
+  
+  ### Check Whether User Can Manage Polls
+! if(!current_user_can('uninstall_polls')) {
+  	die('Access Denied');
+  }
+  
+***************
+*** 133,136 ****
+  </form>
+  <?php
+  } // End switch($mode)
+! ?>
+\ Ingen nyrad vid filslut
+--- 133,136 ----
+  </form>
+  <?php
+  } // End switch($mode)
+! ?>
+diff -crB wp-polls/wp-polls.php wp-polls.new/wp-polls.php
+*** wp-polls/wp-polls.php	2010-11-18 12:15:01.000000000 +0100
+--- wp-polls.new/wp-polls.php	2010-11-18 09:19:59.000000000 +0100
+***************
+*** 1614,1620 ****
+  	$role = get_role('administrator');
+  	if(!$role->has_cap('manage_polls')) {
+  		$role->add_cap('manage_polls');
+  	}
+  	cron_polls_place();
+  }
+! ?>
+\ Ingen nyrad vid filslut
+--- 1614,1626 ----
+  	$role = get_role('administrator');
+  	if(!$role->has_cap('manage_polls')) {
+  		$role->add_cap('manage_polls');
++ 		$role->add_cap('uninstall_polls');
+  	}
++ 	$role = get_role('editor');
++ 	if (!$role->has_cap('manage_polls')) {
++ 	  $role->add_cap('manage_polls');
++ 	}
++ 
+  	cron_polls_place();
+  }
+! ?>

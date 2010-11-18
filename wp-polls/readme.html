@@ -1,0 +1,778 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>WP-Polls 2.60 Readme</title>
+	<style type="text/css" media="screen">
+		/* Default Style */
+		BODY {
+			font-family: Verdana, Arial;
+			font-size: 12px;
+			color: #000000;
+			background: #FFFFFF;
+		}
+		P {
+			padding-left: 10px;
+		}
+		BLOCKQUOTE {
+			margin: 10px 20px 0px 20px;
+			padding: 10px;
+			border: 1px solid #8d8d8d;
+			background-color: #f5f5f5;
+			overflow: auto;
+		}
+		LI {
+			margin-top: 20px;
+		}
+		UL LI UL LI {
+			margin-top: 10px;
+		}
+		A, A:active, A:link, A:visited {
+			color: #2d3a4c;
+			text-decoration: none;
+		}
+		A:hover {
+			color: #5577a5;
+			text-decoration: underline;
+		}
+		/* Place Holder Style */
+		#Container {
+			width: 780px;
+			margin-left: auto;
+			margin-right: auto; 
+		}
+		#Content {
+			background-color: #fafafa;
+			border: 1px solid #a2b6cb;
+			padding: 10px;
+			margin-top: -13px;
+		}
+		/* Title Style */
+		#Title {
+			font-family: Verdana, Arial;
+			font-size: 22px;
+			font-weight: bold;
+			color: #389aff;
+			border-bottom: 1px solid #389aff;
+			margin-bottom: 10px;
+		}
+		.SubTitle {
+			font-family: Verdana, Arial;
+			font-size: 18px;
+			font-weight: bold;
+			color: #5b87b4;
+		}
+		.SubSubTitle {
+			font-family: Verdana, Arial;
+			font-size: 14px;
+			font-weight: bold;
+			color: #73a4d6;
+		}
+		/* Tabs */
+		UL#Tabs {
+			font-family: Verdana, Arial;
+			font-size: 12px;
+			font-weight: bold;
+			list-style-type: none;
+			padding-bottom: 28px;
+			border-bottom: 1px solid #a2b6cb;
+			margin-bottom: 12px;
+			z-index: 1;
+		}
+		#Tabs LI.Tab {
+			float: right;
+			height: 25px;
+			background-color: #deedfb;
+			margin: 2px 0px 0px 5px;
+			border: 1px solid #a2b6cb;
+		}
+		#Tabs LI.Tab A {
+			float: left;
+			display: block;
+			color: #666666;
+			text-decoration: none;
+			padding: 5px;
+		}
+		#Tabs LI.Tab A:hover {
+			background-color: #bfe0fe;
+			border-bottom: 1px solid #bfe0fe;
+		}
+		/* Selected Tab */
+		#Tabs LI.SelectedTab {
+			float: right;
+			height: 25px;
+			background-color: #fafafa;
+			margin: 2px 0px 0px 5px;
+			border-top: 1px solid #a2b6cb;
+			border-right: 1px solid #a2b6cb;
+			border-bottom: 1px solid #fafafa;
+			border-left: 1px solid #a2b6cb;
+		}
+		#Tabs LI.SelectedTab A {
+			float: left;
+			display: block;
+			color: #666666;
+			text-decoration: none;
+			padding: 5px;
+			cursor: default;
+		}
+		/* Copyright */
+		#Copyright {
+			text-align: center;
+		}
+	</style>
+	<script type="text/javascript">
+	/* <![CDATA[*/
+		// Index Page
+		function index() {
+			// Tab
+			document.getElementById('IndexTab').className = 'SelectedTab';
+			document.getElementById('ChangelogTab').className = 'Tab';
+			document.getElementById('InstallTab').className = 'Tab';
+			document.getElementById('UpgradeTab').className = 'Tab';
+			document.getElementById('UsageTab').className = 'Tab';
+			// Page
+			document.getElementById('Index').style.display= 'block';
+			document.getElementById('Changelog').style.display = 'none';
+			document.getElementById('Install').style.display = 'none';
+			document.getElementById('Upgrade').style.display = 'none';
+			document.getElementById('Usage').style.display = 'none';
+		}
+		// Changelog Page
+		function changelog() {
+			// Tab
+			document.getElementById('IndexTab').className = 'Tab';
+			document.getElementById('ChangelogTab').className = 'SelectedTab';
+			document.getElementById('InstallTab').className = 'Tab';
+			document.getElementById('UpgradeTab').className = 'Tab';
+			document.getElementById('UsageTab').className = 'Tab';
+			// Page
+			document.getElementById('Index').style.display = 'none';
+			document.getElementById('Changelog').style.display = 'block';
+			document.getElementById('Install').style.display = 'none';
+			document.getElementById('Upgrade').style.display = 'none';
+			document.getElementById('Usage').style.display = 'none';
+		}
+		// Installation Page
+		function install() {
+			// Tab
+			document.getElementById('IndexTab').className = 'Tab';
+			document.getElementById('ChangelogTab').className = 'Tab';
+			document.getElementById('InstallTab').className = 'SelectedTab';
+			document.getElementById('UpgradeTab').className = 'Tab';
+			document.getElementById('UsageTab').className = 'Tab';
+			// Page
+			document.getElementById('Index').style.display= 'none';
+			document.getElementById('Changelog').style.display = 'none';
+			document.getElementById('Install').style.display = 'block';
+			document.getElementById('Upgrade').style.display = 'none';
+			document.getElementById('Usage').style.display = 'none';
+		}
+		// Upgrade Page
+		function upgrade() {
+			// Tab
+			document.getElementById('IndexTab').className = 'Tab';
+			document.getElementById('ChangelogTab').className = 'Tab';
+			document.getElementById('InstallTab').className = 'Tab';
+			document.getElementById('UpgradeTab').className = 'SelectedTab';
+			document.getElementById('UsageTab').className = 'Tab';
+			// Page
+			document.getElementById('Index').style.display= 'none';
+			document.getElementById('Changelog').style.display = 'none';
+			document.getElementById('Install').style.display = 'none';
+			document.getElementById('Upgrade').style.display = 'block';
+			document.getElementById('Usage').style.display = 'none';
+		}
+		// Usage Page
+		function usage() {
+			// Tab
+			document.getElementById('IndexTab').className = 'Tab';
+			document.getElementById('ChangelogTab').className = 'Tab';
+			document.getElementById('InstallTab').className = 'Tab';
+			document.getElementById('UpgradeTab').className = 'Tab';
+			document.getElementById('UsageTab').className = 'SelectedTab';
+			// Page
+			document.getElementById('Index').style.display= 'none';
+			document.getElementById('Changelog').style.display = 'none';
+			document.getElementById('Install').style.display = 'none';
+			document.getElementById('Upgrade').style.display = 'none';
+			document.getElementById('Usage').style.display = 'block';
+		}
+	/* ]]> */
+	</script>
+</head>
+<body>
+<div id="Container">
+	<!-- Title -->
+	<div id="Title">WP-Polls 2.60&nbsp;&nbsp;&nbsp;<span style="color: #aaaaaa;">Readme</span></div>
+
+	<!-- Tabs -->
+	<ul id="Tabs">
+		<li id="UsageTab" class="Tab"><a href="#Usage" onclick="usage(); return false;" title="Usage Instructions">Usage</a></li>
+		<li id="UpgradeTab" class="Tab"><a href="#Upgrade" onclick="upgrade(); return false;" title="Upgrade Instructions">Upgrade</a></li>
+		<li id="InstallTab" class="Tab"><a href="#Installation" onclick="install(); return false;" title="Installation Instructions">Installation</a></li>
+		<li id="ChangelogTab" class="Tab"><a href="#Changelog" onclick="changelog(); return false;" title="Changelog">Changelog</a></li>
+		<li id="IndexTab" class="SelectedTab"><a href="#Index" onclick="index(); return false;" title="Index Instructions">Index</a></li>
+	</ul>
+
+	<!-- Content -->
+	<div id="Content">
+		<!-- Index -->
+		<div id="Index">
+			<div class="SubTitle">&raquo; Index</div>
+			<div class="SubSubTitle">Plugin Information</div>
+			<p>
+				<strong>Author:</strong><br />
+				<strong>&raquo;</strong> Lester 'GaMerZ' Chan
+			</p>
+			<p>
+				<strong>Website:</strong><br />
+				<strong>&raquo;</strong> <a href="http://lesterchan.net/" title="http://lesterchan.net/">http://lesterchan.net/</a>
+			</p>
+			<p>
+				<strong>Features:</strong><br />
+				<strong>&raquo;</strong> Adds an AJAX poll system to your WordPress blog. You can easily include a poll into your WordPress's blog post/page. WP-Polls is extremely customizable via templates and css styles and there are tons of options for you to choose to ensure that WP-Polls runs the way you wanted. It now supports multiple selection of answers.
+			</p>
+			<p>
+				<strong>Download:</strong><br />
+				<strong>&raquo;</strong> <a href="http://downloads.wordpress.org/plugin/wp-polls.2.60.zip" title="http://downloads.wordpress.org/plugin/wp-polls.2.60.zip">WP-Polls 2.60 For WordPress 2.8.x</a><br />
+				<strong>&raquo;</strong> <a href="http://downloads.wordpress.org/plugin/wp-polls.2.40.zip" title="http://downloads.wordpress.org/plugin/wp-polls.2.40.zip">WP-Polls 2.40 For WordPress 2.7.x</a><br />
+				<strong>&raquo;</strong> <a href="http://downloads.wordpress.org/plugin/wp-polls.2.31.zip" title="http://downloads.wordpress.org/plugin/wp-polls.2.31.zip">WP-Polls 2.31 For WordPress 2.5.x And 2.6.x</a><br />
+				<strong>&raquo;</strong> <a href="http://downloads.wordpress.org/plugin/wp-polls.2.20.zip" title="http://downloads.wordpress.org/plugin/wp-polls.2.20.zip">WP-Polls 2.20 For WordPress 2.1.x, 2.2.x And 2.3.x</a><br />
+				<strong>&raquo;</strong> <a href="http://downloads.wordpress.org/plugin/wp-polls.2.13.zip" title="http://downloads.wordpress.org/plugin/wp-polls.2.13.zip">WP-Polls 2.13 For WordPress 2.0.x</a><br />
+				<strong>&raquo;</strong> <a href="http://downloads.wordpress.org/plugin/wp-polls.2.02a.zip" title="http://downloads.wordpress.org/plugin/wp-polls.2.02a.zip">WP-Polls 2.02a For WordPress 1.5.2</a>
+			</p>
+			<p>
+				<strong>Screenshots:</strong><br />
+				<strong>&raquo;</strong> <a href="http://lesterchan.net/wordpress/screenshots/browse/wp-polls/" title="http://lesterchan.net/wordpress/screenshots/browse/wp-polls/">http://lesterchan.net/wordpress/screenshots/browse/wp-polls/</a>
+			</p>
+			<p>
+				<strong>Demo:</strong><br />
+				<strong>&raquo;</strong> <a href="http://lesterchan.net/wordpress/" title="http://lesterchan.net/wordpress/">http://lesterchan.net/wordpress/</a>
+			</p>
+			<p>
+				<strong>Development:</strong><br />
+				<strong>&raquo;</strong> <a href="http://dev.wp-plugins.org/browser/wp-polls/" title="http://dev.wp-plugins.org/browser/wp-polls/">http://dev.wp-plugins.org/browser/wp-polls/</a>
+			</p>
+			<p>
+				<strong>Translations:</strong><br />
+				<strong>&raquo;</strong> <a href="http://dev.wp-plugins.org/browser/wp-polls/i18n/" title="http://dev.wp-plugins.org/browser/wp-polls/i18n/">http://dev.wp-plugins.org/browser/wp-polls/i18n/</a>
+			</p>
+			<p>
+				<strong>Support Forums:</strong><br />
+				<strong>&raquo;</strong> <a href="http://forums.lesterchan.net/index.php?board=15.0" title="http://forums.lesterchan.net/index.php?board=15.0">http://forums.lesterchan.net/index.php?board=15.0</a>
+			</p>
+			<p>
+				<strong>Credits:</strong><br />
+				<strong>&raquo;</strong> __ngetext() by <a href="http://hweia.ru/" title="http://hweia.ru/">Anna Ozeritskaya</a>.<br />
+				<strong>&raquo;</strong> Right To Left Language Support by <a href="http://persian-programming.com/" title="http://persian-programming.com/">Kambiz R. Khojasteh</a>.
+			</p>
+			<p>
+				<strong>Note:</strong><br />
+				<strong>&raquo;</strong> The <strong>Changelog</strong>, <strong>Installation</strong>, <strong>Upgrade</strong>, <strong>Usage</strong> Tab at the top of the page.<br />
+			</p>
+			<p>
+				<strong>Donations:</strong><br />
+				<strong>&raquo;</strong> I spent most of my free time creating, updating, maintaining and supporting these plugins, if you really love my plugins and could spare me a couple of bucks as my school allowance, I will really appericiate it. If not feel free to use it without any obligations. Thank You. My Paypal account is 
+				<script type="text/javascript">
+					/* <![CDATA[*/
+					document.write(' <strong>lesterchan@gmail.com</strong>.');
+					/* ]]> */
+				</script>
+			</p>
+		</div>
+
+		<!-- Changelog -->
+		<div id="Changelog" style="display: none;">
+			<div class="SubTitle">&raquo; Changelog</div>
+			<ul>
+				<li>
+					<strong>Version 2.60 (01-12-2009)</strong>
+					<ul>
+						<li>NEW: Uses WordPress nonce Throughout</li>
+						<li>NEW: Display 2,000 Records In Poll Logs Instead Of 100</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.50 (01-06-2009)</strong>
+					<ul>
+						<li>NEW: Works For WordPress 2.8 Only</li>
+						<li>NEW: Javascript Now Placed At The Footer</li>
+						<li>NEW: Uses jQuery Instead Of tw-sack</li>
+						<li>NEW: Minified Javascript Instead Of Packed Javascript</li>
+						<li>NEW: Renamed polls-admin-js-packed.js To polls-admin-js.js</li>
+						<li>NEW: Renamed polls-admin-js.js To polls-admin-js.dev.js</li>
+						<li>NEW: Renamed polls-js-packed.js To polls-js.js</li>
+						<li>NEW: Renamed polls-js.js To polls-js.dev.js</li>
+						<li>NEW: Translate Javascript Variables Using wp_localize_script()</li>
+						<li>NEW: Add "Add Poll" To WordPress Favourite Actions</li>
+						<li>NEW: Minified editor_plugin.js And Added Non-Minified editor_plugin.dev.js</li>
+						<li>NEW: Able To Remove Individual Answers When Adding Or Editing A Poll</li>
+						<li>NEW: Use _n() Instead Of __ngettext() And _n_noop() Instead Of __ngettext_noop()</li>
+						<li>NEW: Uses New Widget Class From WordPress</li>
+						<li>NEW: Merge Widget Code To wp-polls.php And Remove wp-polls-widget.php</li>
+						<li>FIXED: Uses $_SERVER['PHP_SELF'] With plugin_basename(__FILE__) Instead Of Just $_SERVER['REQUEST_URI']</li>
+						<li>FIXED: Ensure That Percentage Always Add Up To 100%</li>
+						<li>FIXED: More Efficient WP-Polls Archive</li>
+						<li>FIXED: Logged By Username Now Shows Poll Results To Users Who Did Not Login</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.40 (12-12-2008)</strong>
+					<ul>
+						<li>NEW: Works For WordPress 2.7 Only</li>
+						<li>NEW: Load Admin JS And CSS Only In WP-Polls Admin Pages</li>
+						<li>NEW: Added polls-admin-css.css For WP-Polls Admin CSS Styles</li>
+						<li>NEW: Right To Left Language Support by <a href="http://persian-programming.com/" title="http://persian-programming.com/">Kambiz R. Khojasteh</a></li>
+						<li>NEW: Added "polls-css-rtl.css" by <a href="http://persian-programming.com/" title="http://persian-programming.com/">Kambiz R. Khojasteh</a></li>						
+						<li>NEW: Applied Output Of polls_archive() To "polls_archive" Filter by <a href="http://persian-programming.com/" title="http://persian-programming.com/">Kambiz R. Khojasteh</a></li>						
+						<li>NEW: Added Call To polls_textdomain() In create_poll_table() and vote_poll() functions by <a href="http://persian-programming.com/" title="http://persian-programming.com/">Kambiz R. Khojasteh</a></li>
+						<li>NEW: Uses wp_register_style(), wp_print_styles(), plugins_url() And site_url()</li>
+						<li>NEW: [poll id="-2"] or <?php get_poll(-2); ?> Will Randomize The Poll</li>
+						<li>FIXED: SSL Support</li>
+						<li>FIXED Moved Call To update_pollbar() From onblur To onclick Event. It Was Showing The Last Selection Instead Of Current One by <a href="http://persian-programming.com/" title="http://persian-programming.com/">Kambiz R. Khojasteh</a></li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.31 (16-07-2008)</strong>
+					<ul>
+						<li>NEW: Works For WordPress 2.6</li>
+						<li>NEW: Better Translation Using __ngetext() by <a href="http://hweia.ru/" title="http://hweia.ru/">Anna Ozeritskaya</a></li>
+						<li>FIXED: MYSQL Charset Issue Should Be Solved</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.30 (01-06-2008)</strong>
+					<ul>
+						<li>NEW: Works For WordPress 2.5 Only</li>
+						<li>NEW: Added Paging Header And Footer Template For Polls Archive Page</li>
+						<li>NEW: Uses WP-PageNavi Style Paging For Polls Archive Page</li>
+						<li>NEW: WP-Polls Will Load 'polls-css.css' Inside Your Theme Directory If It Exists. If Not, It Will Just Load The Default 'polls-css.css' By WP-Polls</li>
+						<li>NEW: Uses Shortcode API</li>
+						<li>NEW: When Inserting Poll Into Post, It is Now [poll id="1"], Where 1 Is Your Poll ID</li>
+						<li>NEW: When User Does Not Have Permission To Vote, The Voting Form Is Now Disabled Instead Of Showing Poll's Result</li>
+						<li>NEW: Added A New Action Called "Display Disabled Poll's Voting Form" To Action Taken When A Poll Is Closed</li>
+						<li>NEW: Updated WP-Polls TinyMCE Plugin To Work With TinyMCE 3.0</li>
+						<li>NEW: Add Time Expiry For Cookie/Log</li>
+						<li>NEW: Removed polls-usage.php</li>
+						<li>NEW: Removed "Fade Anything Technique" In Polls Admin</li>
+						<li>NEW: Uses /wp-polls/ Folder Instead Of /polls/</li>
+						<li>NEW: Uses wp-polls.php Instead Of polls.php</li>
+						<li>NEW: Uses wp-polls-widget.php Instead Of polls-widget.php</li>
+						<li>NEW: Use number_format_i18n() Instead</li>
+						<li>NEW: Renamed polls-admin-js.php To polls-admin-js.js and Move The Dynamic Javascript Variables To The PHP Pages</li>
+						<li>NEW: Renamed polls-js.php To polls-js.js and Move The Dynamic Javascript Variables To The PHP Pages</li>
+						<li>NEW: Uses polls-js-packed.js And polls-admin-js-packed.js</li>
+						<li>FIXED: Unable To Delete Poll Or Poll Answers If There Is Quotes Within The Poll Or Poll Answer</li>
+						<li>FIXED: number_format() Not Used In Polls Archive</li>
+						<li>FIXED: Unable To Schedule Future Poll If The Year Is Different From Current Year</li>
+						<li>FIXED: TinyMCE Tool Tip For Insert Poll Not Translated</li>
+						<li>FIXED: Content-Type Not Being Sent Back When AJAX Return Results</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.21 (01-10-2007)</strong>
+					<ul>
+						<li>NEW: Works For WordPress 2.3 Only</li>
+						<li>NEW: Added Quick Tag For Poll To Visual (TinyMCE) / Code Editor</li>
+						<li>NEW: New CSS Style For WP-Polls Archive (.wp-polls-archive)</li>
+						<li>NEW: Uses WP-Stats Filter To Add Stats Into WP-Stats Page</li>
+						<li>NEW: Ability To Add Polls To Excerpt</li>
+						<li>NEW: Added "Random Order" For Sorting Poll's Answers And Poll's Result Answers</li>
+						<li>FIXED: Language Problem By Setting Database Table To UTF8</li>
+						<li>FIXED: Some Text Not Translated In Polls Widget</li>
+						<li>FIXED: 2 Wrong Options Name In Polls Uninstall</li>
+						<li>FIXED: Some Translation Bug in polls-usage.php</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.20 (01-06-2007)</strong>
+					<ul>
+						<li>NEW: Poll Archive Link, Individual Poll Header And Footer In Poll Archive Template</li>
+						<li>NEW: Poll Templates Has Now Its Own Page 'WP-Admin -> Polls -> Poll Templates'</li>
+						<li>NEW: Poll Widget Can Now Display Multiple Polls</li>
+						<li>NEW: Ability To Allow User To Select More Than 1 Poll Answer</li>
+						<li>NEW: Added AJAX Style Option: "Show Loading Image With Text"</li>
+						<li>NEW: Added AJAX Style Option: "Show Fading In And Fading Out Of Polls"</li>
+						<li>NEW: Major Changes To The Administration Panel For WP-Polls</li>
+						<li>NEW: AJAX Added To The Administration Panel For WP-Polls</li>
+						<li>NEW: Default Poll's Result Template Will Now Show Number Of Votes Beside The Percentage</li>
+						<li>NEW: Term "Total Votes" Changed To "Total Voters". <a href="http://lesterchan.net/wordpress/2007/02/09/total-voters-and-total-votes/">Refer To Here</a></li>
+						<li>NEW: Removed Polls From Feed If The Poll Is Embedded Into The Post Using [poll=ID]</li>
+						<li>NEW: Filtering Of Individual Poll Logs</li>
+						<li>FIXED: Poll Archive Will Now Show Only Polls Results</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.14 (01-02-2007)</strong>
+					<ul>
+						<li>NEW: Works For WordPress 2.1 Only</li>
+						<li>NEW: Renamed polls-js.js to polls-js.php To Enable PHP Parsing</li>
+						<li>NEW: Ability To Make A Poll Expire</li>
+						<li>NEW: Ability To Make A Future Poll</li>
+						<li>NEW: Future Poll Will Automatically Open When The Poll's Date Is Reached</li>
+						<li>NEW: Expired Poll Will Automatically Closed When The Poll's Date Is Reached</li>
+						<li>NEW: Ablity To Choose What To Do When The Poll Is Closed (Display Result, Remove Poll From Sidebar)</li>
+						<li>FIXED: Future Dated Polls Will Not Appear In The Post/Sidebar/Polls Archive</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.13 (02-01-2007)</strong>
+					<ul>
+						<li>NEW: polls.php Now Handles The AJAX Processing Instead Of index.php</li>
+						<li>NEW: Able To Modify The Style Of Poll Results Bar in 'Polls -> Poll Option'</li>
+						<li>NEW: Usage Instructions Is Also Included Within The Plugin Itself</li>
+						<li>NEW: Uninstaller Done By Philippe Corbes</li>
+						<li>NEW: Localization Done By <a href="http://4visions.nl/" title="http://4visions.nl/">Ravan</a></li>
+						<li>NEW: Ability To Add HTML Into Poll Question and Answers</li>
+						<li>FIXED: AJAX Not Working On Servers Running On PHP CGI</li>
+						<li>FIXED: Added Some Default Styles To polls-css.css To Ensure That WP-Polls Does Not Break</li>
+						<li>FIXED: Other Languages Not Appearing Properly</li>
+						<li>FIXED: Poll IP Logs Of Deleted Poll's Answer Did Not Get Deleted</li>
+						<li>FIXED: There Is An Error In Voting If There Is Only 1 Poll's Answer</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.12 (01-10-2006)</strong>
+					<ul>
+					
+						<li>NEW: Polls Archive Is Now Embedded Into A Page, And Hence No More Integrating Of Polls Archive</li>
+						<li>NEW: WP-Polls Is Now Using DIV To Display The Poll's Results Instead Of The Image Bar</li>
+						<li>NEW: Added Widget Title Option To WP-Polls Widget</li>
+						<li>NEW: Ability To Logged By UserName</li>
+						<li>NEW: Added CSS Class 'wp-polls-image' To All IMG Tags</li>
+						<li>FIXED: If Site URL Doesn't Match WP Option's Site URL, WP-Polls Will Not Work</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.11 (08-06-2006)</strong>
+					<ul>
+						<li>NEW: You Can Now Place The Poll On The Sidebar As A Widget</li>
+						<li>NEW: Moved wp-polls.php To wp-content/plugins/polls/ Folder</li>
+						<li>FIXED: AJAX Not Working In Opera Browser</li>
+						<li>FIXED: Poll Not Working On Physical Pages That Is Integrated Into WordPress</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.1 (01-06-2006)</strong>
+					<ul>
+						<li>NEW: Poll Is Now Using AJAX</li>
+						<li>NEW: Ability To Close/Open Poll</li>
+						<li>NEW: Added Poll Option For Logging Method</li>
+						<li>NEW: Added Poll Option For Who Can Vote</li>
+						<li>NEW: Added Poll Results Footer Template Variable (Used When User Click "View Results")</li>
+						<li>NEW: Added The Ability To Delete All Poll Logs Or Logs From A Specific Poll</li>
+						<li>NEW: Poll Administration Panel And The Code That WP-Polls Generated Is XHTML 1.0 Transitional</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.06b (26-04-2006)</strong>
+					<ul>
+						<li>FIXED: Bug In vote_poll();</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.06a (02-04-2006)</strong>
+					<ul>
+						<li>FIXED: Random Poll Not Working Correctly</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.06 (01-04-2006)</strong>
+					<ul>
+						<li>NEW: Poll Bar Is Slightly Nicer</li>
+						<li>NEW: Got Rid Of Tables, Now Using List</li>
+						<li>NEW: Added In Most Voted And Least Voted Answer/Votes/Percentage For Individual Poll As Template Variables</li>
+						<li>NEW: Display Random Poll Option Under Poll -> Poll Options -> Current Poll</li>
+						<li>FIXED: Totally Removed Tables In wp-polls.php</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.05 (01-03-2006)</strong>
+					<ul>
+						<li>NEW: Improved On 'manage_polls' Capabilities</li>
+						<li>NEW: Neater Structure</li>
+						<li>NEW: No More Install/Upgrade File, It Will Install/Upgrade When You Activate The Plugin</li>
+						<li>NEW: Added Poll Stats Function</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.04 (01-02-2006)</strong>
+					<ul>
+						<li>NEW: Added 'manage_polls' Capabilities To Administrator Role</li>
+						<li>NEW: [poll=POLL_ID] Tag To Insert Poll Into A Post</li>
+						<li>NEW: Ability To Edit Poll's Timestamp</li>
+						<li>NEW: Ability To Edit Individual Poll's Answer Votes</li>
+						<li>NEW: %POLL_RESULT_URL% To Display Poll's Result URL</li>
+						<li>FIXED: Cannot Sent Header Error</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.03 (01-01-2006)</strong>
+					<ul>
+						<li>NEW: Compatible With WordPress 2.0 Only</li>
+						<li>NEW: Poll Administration Menu Added Automatically Upon Activating The Plugin</li>
+						<li>NEW: Removed Add Poll Link From The Administration Menu</li>
+						<li>NEW: GPL License Added</li>
+						<li>NEW: Page Title Added To wp-polls.php</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.02a (17-11-2005)</strong>
+					<ul>
+						<li>FIXED: poll-install.php And poll-upgrade.php will Now Be Installed/Upgraded To 2.02 Instead Of 2.01</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.02 (05-11-2005)</strong>
+					<ul>
+						<li>FIXED: Showing 0 Vote On Poll Edit Page</li>
+						<li>FIXED: Null Vote Being Counted As A Vote</li>
+						<li>FIXED: Auto Loading Of Poll Option: Polls Per Page In Poll Archive Page Is Now "No"</li>
+						<li>NEW: Host Column In Poll IP Table To Prevent Network Lagging When Resolving IP</li>
+						<li>NEW: New Poll Error Template</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.01 (25-10-2005)</strong>
+					<ul>
+						<li>FIXED: Upgrade Script To Insert Lastest Poll ID Of User's Current Polls, Instead Of Poll ID 1</li>
+						<li>FIXED: Replace All &lt;?= With &lt;?php</li>
+						<li>FIXED: Added addalshes() To $pollip_user</li>
+						<li>FIXED: Better Localization Support (80% Done, Will Leave It In The Mean Time)</li>
+					</ul>
+				</li>
+				<li>
+					<strong>Version 2.0 (20-10-2005)</strong>
+					<ul>
+						<li>NEW: IP Logging</li>
+						<li>NEW: Poll Options: Sorting Of Answers In Voting Form</li>
+						<li>NEW: Poll Options: Sorting Of Answers In Results View</li>
+						<li>NEW: Poll Options: Number Of Polls Per Page In Poll Archive</li>
+						<li>NEW: Poll Options: Choose Poll To Display On Index Page</li>
+						<li>NEW: Poll Options: Able To Disable Poll With Custom Message</li>
+						<li>NEW: Poll Options: Poll Templates</li>
+						<li>NEW: Display User's Voted Choice</li>
+						<li>FIXED: Better Install/Upgrade Script</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<!-- Installation Instructions -->
+		<div id="Install" style="display: none;">
+			<div class="SubTitle">&raquo; Installation Instructions</div>
+			<ol>
+				<li>
+					Open <strong>wp-content/plugins</strong> Folder
+				</li>
+				<li>
+					Put:
+					<blockquote>Folder: wp-polls</blockquote>
+				</li>
+				<li>
+					<strong>Activate</strong> WP-Polls Plugin
+				</li>
+				<li>
+					Refer To <strong>Usage</strong> For Further Instructions
+				</li>
+			</ol>
+		</div>
+
+		<!-- Upgrade Instructions -->	
+		<div id="Upgrade" style="display: none;">
+			<div class="SubTitle">&raquo; Upgrade Instructions</div>
+			<div class="SubSubTitle">From v2.xx To v2.60</div>
+			<ol>
+				<li>
+					<strong>Deactivate</strong> WP-Polls Plugin
+				</li>
+				<li>
+					<strong>Deactivate</strong> WP-Polls Widget Plugin
+				</li>
+				<li>
+					Open <strong>wp-content/plugins</strong> Folder
+				</li>
+				<li>
+					Put/Overwrite:
+					<blockquote>Folder: wp-polls</blockquote>
+				</li>
+				<li>
+					Delete this folder/file if exists:
+					<blockquote>
+						Folder: polls<br />
+						File: wp-polls-widget.php
+					</blockquote>
+				</li>
+				<li>
+					<strong>Activate</strong> WP-Polls Plugin
+				</li>
+				<li>
+					Go to '<strong>WP-Admin -> Polls -> Polls Templates</strong>' and restore all the template variables to <strong>Default</strong>
+				</li>
+				<li>
+					Go to '<strong>WP-Admin -> Appearance -> Widgets</strong>' and re-add the Poll Widget
+				</li>
+				<li>
+					Refer To <strong>Usage</strong> For Further Instructions
+				</li>
+			</ol>
+		</div>
+
+		<!-- Usage Instructions -->	
+		<div id="Usage" style="display: none;">
+			<div class="SubTitle">&raquo; Usage Instructions</div>
+			<div class="SubSubTitle">General Usage (Without Widget)</div>
+			<ol>
+				<li>
+					Open <strong>wp-content/themes/&lt;YOUR THEME NAME&gt;/sidebar.php</strong>
+				</li>
+				<li>
+					Add:
+					<blockquote>
+						&lt;?php if (function_exists('vote_poll') &amp;&amp; !in_pollarchive()): ?&gt;<br />
+						&lt;li&gt;<br />
+						&nbsp;&nbsp;&nbsp;&lt;h2&gt;Polls&lt;/h2&gt;<br />
+						&nbsp;&nbsp;&nbsp;&lt;ul&gt;<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;?php get_poll();?&gt;&lt;/li&gt;<br />
+						&nbsp;&nbsp;&nbsp;&lt;/ul&gt;<br />
+						&nbsp;&nbsp;&nbsp;&lt;?php display_polls_archive_link(); ?&gt;<br />
+						&lt;/li&gt;<br />
+						&lt;?php endif; ?&gt;
+					</blockquote>
+					<p>To show specific poll, use &lt;?php get_poll(<strong>2</strong>); ?&gt; where <strong>2</strong> is your poll id.</p>
+					<p>To show random poll, use &lt;?php get_poll(<strong>-2</strong>); ?&gt;</p>
+					<p>To embed a specific poll in your post, use [poll id="<strong>2</strong>"] where <strong>2</strong> is your poll id.</p>
+					<p>To embed a random poll in your post, use [poll id="<strong>-2</strong>"]</p>
+					<p>To embed a specific poll's result in your post, use [poll id="<strong>2</strong>" type="result"] where <strong>2</strong> is your poll id.</p>
+				</li>
+				<li>
+					Scroll down for instructions on how to create a <strong>Polls Archive</strong>.
+				</li>
+			</ol>
+			<div class="SubSubTitle">General Usage (With Widget)</div>
+			<ol>
+				<li>
+					Go to '<strong>WP-Admin -> Appearance -> Widgets</strong>'.
+				</li>
+				<li>
+					You can <strong>add</strong> the Polls Widget by clicking on the 'Add' link besides it.
+				</li>
+				<li>
+					After adding, you can <strong>configure</strong> the Polls Widget by clicking on the 'Edit' link besides it.
+				</li>
+				<li>
+					Click 'Save Changes'.
+				</li>
+				<li>
+					Scroll down for instructions on how to create a <strong>Polls Archive</strong>.
+				</li>
+			</ol>
+			<div class="SubSubTitle">Polls Archive</div>
+			<ol>
+				<li>
+					Go to '<strong>WP-Admin -> Pages -> Add New</strong>'.
+				</li>
+				<li>
+					Type any title you like in the post's title area.
+				</li>
+				<li>
+					If you <strong>ARE </strong> using nice permalinks,  after typing the title, WordPress will generate the permalink to the page. You will see an 'Edit' link just beside the permalink.
+				</li>
+				<li>
+					Click 'Edit' and type in '<strong>pollsarchive</strong>' in the text field (without the quotes) and click 'Save'.
+				</li>
+				<li>
+					Type '<strong>[page_polls]</strong>' in the post's content area (without the quotes).
+				</li>
+				<li>
+					Click 'Publish'.
+				</li>
+				<li>
+					If you <strong>ARE NOT</strong> using nice permalinks, you need to go to 'WP-Admin -> Polls -> Poll Options' and under '<strong>Poll Archive -> Polls Archive URL</strong>', you need to fill in the URL to the Polls Archive Page you created above.
+				</li>
+			</ol>
+			<div class="SubSubTitle">Note</div>
+			<ul>
+				<li>
+					WP-Polls will load '<strong>polls-css.css</strong>' from your theme's directory if it exists.
+					<ul>
+						<li>If it doesn't exists, it will just load the default 'polls-css.css' that comes with WP-Polls.</li>
+						<li>This will allow you to upgrade WP-Polls without worrying about overwriting your polls styles that you have created.</li>
+					</ul>
+				</li>
+				<li>
+					In IE, some of the poll's text may appear jagged (this is normal in IE). To solve this issue,
+					<ol>
+						<li>
+							Open <strong>poll-css.css</strong>
+						</li>
+						<li>
+							Find:
+							<blockquote>
+									/* background-color: #ffffff; */
+							</blockquote>
+						</li>
+						<li>
+							Replace:
+							<blockquote>
+									background-color: #ffffff;
+							</blockquote>
+							<p>Where <strong>#ffffff</strong> should be your background color for the poll.</p>
+						</li>
+					</ol>
+				</li>
+			</ul>
+			<div class="SubSubTitle">Polls Stats (Outside WP Loop)</div>
+			<ul>
+				<li>
+					To Display <strong>Total Polls</strong>
+				</li>
+				<li>
+					Use:
+					<blockquote>
+						&lt;?php if (function_exists('get_pollquestions')): ?&gt;<br />
+						&nbsp;&nbsp;&nbsp;&lt;?php get_pollquestions(); ?&gt;<br />
+						&lt;?php endif; ?&gt;
+					</blockquote>
+				</li>
+				<li>
+					To Display <strong>Total Poll Answers</strong>
+				</li>
+				<li>
+					Use:
+					<blockquote>
+						&lt;?php if (function_exists('get_pollanswers')): ?&gt;<br />
+						&nbsp;&nbsp;&nbsp;&lt;?php get_pollanswers(); ?&gt;<br />
+						&lt;?php endif; ?&gt;
+					</blockquote>
+				</li>
+				<li>
+					To Display <strong>Total Poll Votes</strong>
+				</li>
+				<li>
+					Use:
+					<blockquote>
+						&lt;?php if (function_exists('get_pollvotes')): ?&gt;<br />
+						&nbsp;&nbsp;&nbsp;&lt;?php get_pollvotes(); ?&gt;<br />
+						&lt;?php endif; ?&gt;
+					</blockquote>
+				</li>
+				<li>
+					To Display <strong>Total Poll Voters</strong>
+				</li>
+				<li>
+					Use:
+					<blockquote>
+						&lt;?php if (function_exists('get_pollvoters')): ?&gt;<br />
+						&nbsp;&nbsp;&nbsp;&lt;?php get_pollvoters(); ?&gt;<br />
+						&lt;?php endif; ?&gt;
+					</blockquote>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<p id="Copyright">WP-Polls 2.60<br />Copyright &copy; 2009 Lester 'GaMerZ' Chan. All Rights Reserved.</p>
+</body>
+</html>
